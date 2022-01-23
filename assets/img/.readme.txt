@@ -1,0 +1,17 @@
+ 
+Great information on initial cleanup of Inkscape SVG and adding classes, removing styles, etc.:
+    - https://toughpixels.com/tips/clean-up-inkscape-svg-for-web/
+    - https://svgontheweb.com/
+
+For Hugo specifically, the two key points are:
+    - Store all the necessary SVGs inside the /assets/images folder.
+    - Embed the SVGs in the templates using a partial, say svg.html.
+
+If you see a 'scour' error when saving an optimized SVG, installing scour will not solve the issue. The solution is to apt remove inkscape and then install from PPA:
+
+sudo add-apt-repository universe
+sudo add-apt-repository ppa:inkscape.dev/stable
+sudo apt-get update
+sudo apt install inkscape
+
+As explained in the post at https://beamtic.com/inkscape-scour-bug

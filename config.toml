@@ -1,3 +1,61 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://thisismitime.com"
+languageCode = "en-us"
+title = "this is mitime"
+
+publishDir = "docs" 
+enableGitInfo = true
+footnoteReturnLinkContents = "↩"
+lastmod = [":fileModTime", ":default"] # auto populates lastmod date
+
+[params]
+  ImageMaxWidth = "800"
+  analyticsid = ""
+  additionalmetatags = "<meta name=\"msvalidate.01\" content=\"\" />" 
+  humanDateFormat = "Monday 02 Jan 2006"
+  contactformEndpoint = "https://app.99inbound.com/api/e/1a-dfbvP" 
+  contactformAntispam = "<div style=\"position: absolute; left: -5000px;\"> <input type=\"checkbox\" name=\"grandmas_red_glossy_housecat\" value=\"1\" tabindex=\"-1\" autocomplete=\"no\"> </div>"
+# see https://blog.fullstackdigital.com/how-to-use-hugo-template-variables-in-scss-files-in-2018-b8a834accce
+# https://discourse.gohugo.io/t/how-to-override-css-classes-with-hugo/3033/2
+# color scheme for base theme
+    [params.customStyles]
+        backgroundColor = "#ffffff"  
+        subtleBackColor = "#ffad2b" 
+        foregroundColor = "#058aff"
+        accentColor = "#ff6a1f"
+        accentColor2 = "#ffad2b"
+        activeLinkColor = "#ff6a1f"
+        visitedLinkColor = "#058aff"   
+        fontFamily = "Optima, Candara, Calibri, Arial, sans-serif"
+
+# theming and reusable code
+[module]
+  [[module.imports]]
+    path = "github.com/ajs17/hugo-min-components"
+  [[module.imports]]
+    path = "github.com/ajs17/miclock"
+ 
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = false
+    startLevel = 2
