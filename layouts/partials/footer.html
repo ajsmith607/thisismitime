@@ -1,0 +1,14 @@
+<footer>
+
+    {{ if eq false hugo.IsProduction }}
+        <form id="test">
+            mi: <input type="text" name="mi" id="mitest" value="4">&nbsp;
+            mihour: <input type="text" name="mihour" id="mitest" value="4">&nbsp;
+            miminute: <input type="text" name="miminute" id="mitest" value="4">&nbsp;
+            mistart: <input type="text" name="mistart" id="mitest" value="6">&nbsp;
+        </form>
+        <div id="debug"></div>
+    {{ end }}
+
+    <p>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></p>
+</footer>

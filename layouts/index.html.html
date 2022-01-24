@@ -25,11 +25,16 @@
       }
       
       main {
+        padding-top: 2em;
         font-size: 1.63rem; 
         line-height: 2rem;
-        margin: 2em auto 0;
+        margin: 0 auto 0;
         min-width: 200px;
         max-width: 800px;
+      }
+
+      body.down {
+        background-color: black;
       }
 
       .grid-container {
@@ -65,7 +70,7 @@
       }
 
       nav a:hover {
-        text-decoration: underline;
+        color: #ff6a1f;
       }
 
       .homelink {
@@ -128,15 +133,14 @@
     </style>
   
   <body>
-  
     <main id="home">
-
     <div class="grid-container">
         <figure id="analogclock" class="grid-item">
-            {{ with resources.GetMatch "img/miclock.svg" }}{{  .Content | safeHTML }}{{ end }}
+            {{ .Scratch.Set "svgpath" "img/miclock.svg" }}
+            {{ partial "inline-svg.html" . }}
         </figure>
         <script defer>
-            setInterval('miclock("#miclock", "#mitime", "#standardtime")', 1000 );
+            setInterval('miclock("#miclock", "#mitime", "#standardtime", 4, 4, 4, 6)', 1000 );
         </script>  
         <div class="grid-item">
             {{ partial "mainmenu.html" . }}
@@ -144,7 +148,8 @@
     </div>
     <div class="grid-container">
         <figure id="logo" class="grid-item">
-            {{ with resources.GetMatch "img/mitime-logo-opt.svg" }}{{  .Content | safeHTML }}{{ end }}
+            {{ .Scratch.Set "svgpath" "img/mitime-logo-opt.svg" }}
+            {{ partial "inline-svg.html" . }}
         </figure>
         <div id="digitalclock" class="grid-item">
             mitime is <p id="mitime"></p>
@@ -156,7 +161,6 @@
     </div>
 
     </main>
-  
     <div id="curve">
         {{ readFile "assets/img/subtlecurve.svg" | safeHTML }}
     </div> 
