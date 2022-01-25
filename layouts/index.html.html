@@ -138,8 +138,10 @@
 
       @media only screen and (max-width: 500px) {
          html, body { font-size: 60%;}
-         nav, #miclock, #logo, #digitalclock, #standarddigital, #subhead  { text-align: center ; margin: 0 1rem; }
-          .grid-container { grid-template-columns: 1fr; } /* allows responsiveness of columns of uneven widths */
+         main { padding-top: 1rem; }
+         #analogclock { width: 60%; }
+         nav, #analogclock, #logo, #digitalclock, #standarddigital, #subhead  { text-align: center ; margin: 0 1rem; }
+          .grid-container { grid-template-columns: 1fr; justify-items: center; } /* allows responsiveness of columns of uneven widths */
       }
     </style>
   
