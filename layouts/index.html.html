@@ -15,17 +15,16 @@
 
       html, body {
         min-height: 100%;
-        margin: 0;
         padding:0; 
-        min-height: 100%;
         background-color: #ffffff;   
         color : #058aff;
-        font: 16px/1.6 Optima, Candara, Calibri, Arial, sans-serif;
+        font: 75% Optima, Candara, Calibri, Arial, sans-serif;
 	    line-height: 1.63rem;
       }
-      
+
       main {
-        padding-top: 2em;
+        margin: 0 1rem;
+        padding-top: 2rem;
         font-size: 1.63rem; 
         line-height: 2rem;
         margin: 0 auto 0;
@@ -38,13 +37,16 @@
       }
 
       .grid-container {
-        display: grid;
+        margin: 0 auto;
+        width: 95%;
         align-items: center;
-        grid-template-columns: 62% 38%; 
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-template-rows: auto; 
       }
 
       nav {
+        margin-left: 1rem; 
         height: 100%; 
         font-size: 2.63rem;
         line-height: 3.26rem;
@@ -84,20 +86,24 @@
         -ms-interpolation-mode: bicubic
       }
   
-      #digitalclock {
-          text-align: center;
+      #digitalclock, #standarddigital, #subhead {
+        width: 100%;
+        marginleft: 1rem; 
+        margin-right: 1rem;
+        text-align: center;
+        font-size: 2.63rem;
+        line-height: 3.26rem;
+        text-transform: lowercase;
+      }
+
+      #standarddigital {
+        font-size: 1.63rem;
       }
       
-      #digitalclock p {
-          display: inline; 
-          padding: 0 .24rem;
-          margin: 0; 
-      } 
-
       #mitime {
         font-weight: bold;
       }
-
+      
       figure {
         margin: 0;
         padding: .4rem 0;
@@ -107,17 +113,16 @@
         width: 100%;
       }
 
-      #logo, #digitalclock, #subhead  {
+      #logo, #digitalclock, #standarddigital, #subhead  {
           grid-column: 1 / 3;
       }
 
       #subhead {
         color: #ff6a1f;
-        text-align: center; 
-        font-weight: bold; 
       }
 
       #logo svg {
+        width: 100%;
         fill: #058aff;
       }
 
@@ -130,6 +135,10 @@
         fill: #058aff;
       }
 
+      @media only screen and (max-width: 500px) {
+         html, body { font-size: 40%;}
+         nav, #miclock, #logo, #digitalclock, #standarddigital, #subhead  { text-align: left; margin: 0 0 0 1rem; }
+      }
     </style>
   
   <body>
@@ -152,12 +161,14 @@
             {{ partial "inline-svg.html" . }}
         </figure>
         <div id="digitalclock" class="grid-item">
-            mitime is <p id="mitime"></p>
-            (<p id="standardtime"></p> local time)
+            mitime is <span id="mitime"></span>
         </div> 
-        <div id="subhead" class="grid-item">
-            <p>a minimal approach to more effective time management</p>
+        <div id="standarddigital"> 
+            (<span id="standardtime"></span> local time)
         </div> 
+        <p id="subhead" class="grid-item">
+            a minimal approach to <br/> more effective time management
+        </p> 
     </div>
 
     </main>
