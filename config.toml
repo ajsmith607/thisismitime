@@ -10,6 +10,7 @@ lastmod = [":fileModTime", ":default"] # auto populates lastmod date
 [params]
   ImageMaxWidth = "800"
   analyticsid = ""
+  bodyid = "thisismitime" # allows sites to override base theme body style
   additionalmetatags = "<meta name=\"msvalidate.01\" content=\"\" />" 
   humanDateFormat = "Monday 02 Jan 2006"
   contactformEndpoint = "https://app.99inbound.com/api/e/1a-dfbvP" 
@@ -18,14 +19,17 @@ lastmod = [":fileModTime", ":default"] # auto populates lastmod date
 # https://discourse.gohugo.io/t/how-to-override-css-classes-with-hugo/3033/2
 # color scheme for base theme
     [params.customStyles]
-        backgroundColor = "#ffffff"  
+        # base colors
+        backgroundColor = "#058aff"  
         subtleBackColor = "#ffad2b" 
-        foregroundColor = "#058aff"
+        foregroundColor = "#ffffff"
         accentColor = "#ff6a1f"
         accentColor2 = "#ffad2b"
         activeLinkColor = "#ff6a1f"
         visitedLinkColor = "#058aff"   
         fontFamily = "Optima, Candara, Calibri, Arial, sans-serif"
+        # mitime specific colors
+        downColor = "black"
 
 # theming and reusable code
 [module]

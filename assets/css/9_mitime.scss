@@ -1,0 +1,112 @@
+
+/* 
+colors
+blue: #058aff
+orange: #ff6a1f
+yellow: #ffad2b
+dark gray: #295780 (or #034580)
+light gray: #f3f4f5
+        
+# base colors
+        backgroundColor = "#ffffff"  
+        subtleBackColor = "#ffad2b" 
+        foregroundColor = "#058aff"
+        accentColor = "#ff6a1f"
+        accentColor2 = "#ffad2b"
+        activeLinkColor = "#ff6a1f"
+        visitedLinkColor = "#058aff"   
+        fontFamily = "Optima, Candara, Calibri, Arial, sans-serif"
+        # mitime specific colors
+        downcolor = "black"
+
+*/
+
+
+header {
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+    max-width: 100%;
+    background-color: $color;
+    color: $background-color;
+    @include v-rhythm(1);
+}
+
+header .inner {
+    padding: 2rem 1rem 0 1rem;
+    margin: 0 auto; 
+    max-width: 800px;
+}
+
+header.down {
+    background-color: $down-color;
+}
+
+.homelink, .meta, aside {
+    display: none;
+}
+
+.small-text {
+    @include v-rhythm(0);
+}
+
+figure {
+    margin: 0;
+    padding: 0
+}
+ 
+svg#miclock {
+    width: 100%;
+    max-width: 300px;
+    height: auto; 
+}
+
+#logo svg {
+    width: auto;
+    max-height: 100px; 
+    fill: $background-color;
+}
+
+#logo svg #crosst {
+    fill: $accent-color;
+}
+
+#digitalclock {
+  white-space: nowrap;
+}
+
+.midigital {
+    font-weight: bold; 
+}
+
+header {
+    padding-bottom: -4rem; 
+}
+
+header #curve svg {
+    display: block;
+    margin: 0;
+    padding: 0;
+    fill: $background-color;
+}
+
+.michar {
+    font-weight: bold;
+    vertical-align: 2px;
+}
+
+em {
+  font-family: monospace;
+  font-style: normal;
+  font-size: 1.24rem;
+  font-weight: bold;
+}
+
+main {
+  font-size: 124%; 
+}
+
+@media only screen and (max-width: 800px) {
+    header .midigital { @include v-rhythm(0); } 
+    header .grid-container { grid-template-columns: 1fr; justify-items: left; } /* allows responsiveness of columns of uneven widths */
+}

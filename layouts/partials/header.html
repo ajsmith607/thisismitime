@@ -1,0 +1,24 @@
+<header>
+    <div class="inner">
+        <figure id="logo">
+            {{ .Scratch.Set "svgpath" "img/mitime-logo-opt.svg" }}
+            {{ partial "inline-svg.html" . }}
+        </figure>
+
+        <div id="digitalclock"> 
+            <span class="midigital"> 
+                mitime is <span id="mitime"></span>
+            </span>
+            <span id="standarddigital" class="small-text"> 
+                (<span id="standardtime"></span> local time)
+            </span>
+            <script defer>
+                setInterval('miclock("#miclock", "#mitime", "#standardtime", 4, 4, 4, 6)', 1000 );
+            </script>  
+        </div> 
+    </div>
+    <div id="curve">
+        {{- readFile "assets/img/more.svg" | safeHTML -}}
+    </div> 
+</header>
+

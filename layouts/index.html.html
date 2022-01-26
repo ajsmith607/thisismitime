@@ -16,17 +16,24 @@
       html, body {
         min-height: 100%;
         padding:0; 
+        margin: 0;
         background-color: #ffffff;   
         color : #058aff;
         font: 75% Optima, Candara, Calibri, Arial, sans-serif;
 	    line-height: 1.63rem;
       }
 
+      html {
+        background-color: #058aff;
+      }
+
       main {
+        background-color: #ffffff;   
         font-size: 1.63rem; 
         line-height: 2rem;
         margin: 0 auto;
         padding-top: 4rem;
+        padding-right: 15%; 
         min-width: 200px;
         max-width: 800px;
       }
@@ -134,15 +141,25 @@
         fill: #ff6a1f;
       } 
 
-      #curve svg {
+      #curve {
         width: 100%;
         height: auto; 
         fill: #058aff;
+        display: block;
+        padding-top: -2rem; 
+      }
+
+      footer svg {
+        margin: 0 0 -1rem 0;
+      }
+
+      @media only screen and (max-width: 1200px) {
+         main { padding-right: 0; }
       }
 
       @media only screen and (max-width: 500px) {
          html, body { font-size: 60%;}
-         main { padding-top: 1rem; }
+         main, #curve { padding-top: 1rem; }
          nav, #analogclock, #logo, #digitalclock, #standarddigital, #subhead  { text-align: center ; margin: 0 1rem; }
           .grid-container { grid-template-columns: 1fr; justify-items: center; } /* allows responsiveness of columns of uneven widths */
       }
@@ -179,10 +196,13 @@
     </div>
 
     </main>
-    <div id="curve">
-        {{ readFile "assets/img/subtlecurve.svg" | safeHTML }}
-    </div> 
-    {{/* partial "analytics" . */}}
-  
+
+    <footer>
+        {{/* partial "analytics" . */}}
+        <div id="curve">
+            {{ readFile "assets/img/more.svg" | safeHTML }}
+        </div> 
+    </footer>
+
   </body>
 </html>
