@@ -3,6 +3,7 @@ title: "mi guide"
 menu: "main"
 weight: 2 
 mainid: "miguide"
+summary: "the essential reference"
 ---
 
 **Mitime** (pronounced "my time") is a minimal structure mapped over standard time that describes available time in a day.

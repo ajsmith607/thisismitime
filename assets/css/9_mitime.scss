@@ -106,7 +106,22 @@ main {
   font-size: 124%; 
 }
 
+main a {
+  font-weight: bold;
+}
+
+div.subhead {
+    padding-right: 25%;
+    text-align: center;
+    @include v-rhythm(3);
+    font-size: 5rem;
+    line-height: 5rem;
+    font-style: italic;
+    color: $accent-color2;
+}
+
 @media only screen and (max-width: 800px) {
+    div.subhead { @include v-rhythm(3); text-align: left; } 
     header .midigital { @include v-rhythm(0); } 
     header .grid-container { grid-template-columns: 1fr; justify-items: left; } /* allows responsiveness of columns of uneven widths */
 }

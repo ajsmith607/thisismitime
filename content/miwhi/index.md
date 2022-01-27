@@ -23,7 +23,7 @@ I needed a way to structure time that was simple to use and compatible with stan
 
 After more exploration, I realized that I was unlikely to get a better idea of how to structure time without significant direct experimentation. So, in the meantime, I needed a simple framework for defining a more abstract structure that could be consistently applied and easily reconfigured to support this experimentation. This led me to develop the concept of mitimezones and of course, mi, the fundamental unit of mitime.
 
-Similar to the number [Keleven](https://en.wikipedia.org/wiki/Kevin_Malone), mi is just a means to an end. It only has meaning for the person using it. Choosing 4 as the initial standard was logical for many reasons. It is consistent with our cultural tendency to think of time in quarters, and allows us to use quarters all the way down. Its consistency and uniformity made is the most generalized starting point, so that became the standard. 
+Similar to the number [Keleven](https://en.wikipedia.org/wiki/Kevin_Malone), mi ({{% mi %}}) is just a means to an end. It only has meaning for the person using it. Choosing 4 as the initial standard was logical for many reasons. It is consistent with our cultural tendency to think of time in quarters, and allows us to use quarters all the way down. Its consistency and uniformity made is the most generalized starting point, so that became the standard. 
 
 Mi facilitates a minimal structure that can be easily reconfigured and still be easily understandable. It chunks up the day into more natural units that are uniform and can thus be reorganized easily.
 
