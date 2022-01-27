@@ -38,7 +38,7 @@ header .inner {
     max-width: 800px;
 }
 
-body.down header {
+body.down header header {
     background-color: black; 
     /*$down-color;*/
 }
@@ -119,6 +119,36 @@ div.subhead {
     line-height: 5rem;
     font-style: italic;
     color: $accent-color2;
+}
+
+table.miplanner {
+    border: 0;
+    @include v-rhythm(1);
+}
+
+table.miplanner .mi {
+  border-left: 1px solid $subtle-back-color;
+  vertical-align: top;
+  border-right: 1px solid $subtle-back-color;
+}
+
+table.miplanner .mh {
+    border-right: 1px solid $subtle-back-color;
+}
+
+table.miplanner td, table.miplanner th {
+    background-color: $background-color;
+    border-bottom: 1px solid $subtle-back-color;
+    opacity: 100%;
+    padding-left: 2rem;
+}
+
+table.miplanner th {  
+    border-top: 1px solid $subtle-back-color;
+}
+
+table.miplanner tr:nth-child(even) {
+    background-color: lighten($background-color, 60%);
 }
 
 @media only screen and (max-width: 800px) {
