@@ -6,28 +6,65 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=”robots” content="index, follow">
 <meta name=msvalidate.01 content>
-<link href="/css/main.min.b7707d6f97c1c4c115c855f93145e21e98a4af32d82a5a19dbb087ac223c6928.css" rel=stylesheet integrity="sha256-t3B9b5fBxMEVyFX5MUXiHpikrzLYKloZ27CHrCI8aSg=">
+<link href="/css/main.min.c55bf0fb7980f0ed29b3fcaa5f74a2f377d2b117c555fc362d931e18d28f6285.css" rel=stylesheet integrity="sha256-xVvw+3mA8O0ps/yqX3Si83fSsRfFVfw2LZMeGNKPYoU=">
 <link rel=stylesheet media=print href=/css/print.css>
 <script src=https://code.jquery.com/jquery-3.6.0.slim.min.js crossorigin=anonymous integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
 <script src=/js/stupidtable.min.js></script>
 <script src=/js/smartquotes.js></script>
-<script src=/js/bundle.min.d3d848c49f467ca31410f8372718640476638946e69b74bc8f6a81512a45c6cf.js integrity="sha256-09hIxJ9GfKMUEPg3JxhkBHZjiUbmm3S8j2qBUSpFxs8="></script>
+<script src=/js/bundle.min.74b36882f73f8cf683e4a7557af5e59838cc5fb0bd5559ce0584a18024f6fd7d.js integrity="sha256-dLNogvc/jPaD5KdVevXlmDjMX7C9VVnOBYShgCT2/X0="></script>
 </head>
-<body>
+<body id=thisismitime>
 <header>
-<nav id=breadcrumbs>
-<a href=https://thisismitime.com class=homelink>this is mitime</a>
-</nav>
+<div class=inner>
+<figure id=logo><svg viewBox="0 0 241 38" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-16.215 -125.04)"><rect id="crosst" transform="rotate(90)" x="125.1" y="-142.38" width="8.798" height="60.639" ry="1.0452"/><rect x="81.693" y="139.55" width="14.968" height="23.352" ry=".40251"/><rect x="104.57" y="139.55" width="14.968" height="23.352" ry=".40251"/><rect x="127.45" y="139.56" width="14.968" height="23.352" ry=".40251"/><g transform="matrix(3.8118 0 0 3.8118 -268.01 -184.56)"><rect x="109.75" y="81.239" width="3.9057" height="9.9057" ry=".17074"/><rect x="115.36" y="81.239" width="3.9057" height="9.9057" ry=".17074"/><rect x="120.94" y="81.238" width="3.9057" height="9.9057" ry=".17074"/><rect transform="rotate(90)" x="81.227" y="-124.86" width="2.325" height="10.513" ry=".18121"/></g><g transform="matrix(3.8118 0 0 3.8118 -254.79 -187.75)"><rect x="71.097" y="82.077" width="3.9057" height="9.9057" ry=".17074"/><rect x="76.705" y="82.076" width="3.9057" height="9.9057" ry=".17074"/><rect x="82.283" y="82.075" width="3.9057" height="9.9057" ry=".17074"/><rect transform="rotate(90)" x="82.064" y="-86.2" width="2.325" height="10.513" ry=".18121"/></g><g transform="matrix(3.8118 0 0 3.8118 -268.01 -184.56)"><rect x="126.94" y="81.238" width="3.9057" height="9.9057" ry=".17074"/><rect transform="rotate(90)" x="81.222" y="-137.67" width="2.3428" height="6.1378" ry=".1058"/><rect transform="rotate(90)" x="88.821" y="-137.66" width="2.3428" height="6.1378" ry=".1058"/><rect transform="rotate(90)" x="85.022" y="-137.67" width="2.3428" height="6.1378" ry=".1058"/></g></g></svg>
+</figure>
+<div id=digitalclock>
+<span class=midigital>
+mitime is <span id=mitime></span>
+</span>
+<span id=standarddigital class=small-text>
+(<span id=standardtime></span> local time)
+</span>
+<script defer>setInterval('miclock("#miclock", "#mitime", "#standardtime", 4, 4, 4, 6)',1e3)</script>
+</div>
+</div>
+<div id=curve><svg viewBox="0 0 1440 144" xmlns="http://www.w3.org/2000/svg"><path d="m1440 0-80 11.981c-80 12.206-240 35.83-4e2 53.999-160 17.831-320 30.206-480 30.037-160 .16875-320-12.206-4e2-18L0 71.9984v71.998h80 4e2 480 4e2 80z"/></svg>
+</div>
 </header>
 <main id=miguide class=single>
 <article>
 <h1>mi guide</h1>
 <div class=meta>Last Update:
-<time datetime="Tuesday 25 Jan 2022" class=text-muted>
-Tuesday 25 Jan 2022
+<time datetime="Wednesday 26 Jan 2022" class=text-muted>
+Wednesday 26 Jan 2022
 </time>
 </div>
 <div>
+<p><strong>Mitime</strong> (pronounced &ldquo;my time&rdquo;) is a minimal structure mapped over standard time that describes available time in a day.</p>
+<p>Mitime is represented by the following format:</p>
+<p><em>M.H.N</em></p>
+<p>Where:</p>
+<ul>
+<li><em>M</em> is the <strong>mi</strong> (<span class=michar>ᚃ</span>
+), the most important number in mitime, defining the largest subdivision of the day. By default this is 4.</li>
+<li><em>H</em> is the <em>mihour</em>. Like standard hours, mihours are 60 standard minutes in length. By default, there are 4 mihours in every mi.</li>
+<li><em>N</em> is the <em>miminute</em>. By default, there are 4 miminutes in every mihour.</li>
+</ul>
+<p>Because mitime describes available time, mitime counts down.</p>
+<p>Standard time outside of mitime is unavailable time and is not tracked. This is represented as zero mitime:</p>
+<p><em>0.0.0</em></p>
+<p><em>Mitimezones</em> describe the structure of mitime, and how it maps to standard time. Therefore, a completely explicit mitime reference includes its mitimezone in the following format:</p>
+<p><em>M.H.N <span class=michar>ᚃ</span>
+MC.HC.MC.S</em></p>
+<p>Where:</p>
+<ul>
+<li><em>MC</em> is the mi count, or the number of mis in a day.</li>
+<li><em>HC</em> is the mihour count, the number of hours in a mi.</li>
+<li><em>MC</em> is the miminute count, the number of miminutes in a mihour.</li>
+<li><em>S</em> is the <em>mistart</em>, the standard hour when mitime begins.</li>
+</ul>
+<p>The mitimezone <strong>4.4.4.6</strong> is the default reference mitimezone used throughout and is called <em>Standard Mitime</em>, abbreviated <em>SM</em>.</p>
+<p>Because mitime is a countdown timer structured under the mi, the mitimezone mirrors the first unit of mitime in a day. The last unit of mitime before zero mitime is always 1.1.1 .</p>
 </div>
 </article>
 </main>
@@ -42,8 +79,15 @@ Tuesday 25 Jan 2022
 </div>
 </div>
 </aside>
-<footer>
-<p>&copy; 2022 <a href=https://thisismitime.com>this is mitime</a></p>
-</footer>
+<nav id=menumain>
+<ul>
+<li><a href=https://thisismitime.com class=homelink>this is mitime</a>
+</li>
+<li><a href=/miwhi/>mi whi</a></li>
+<li><a href=/miguide/>mi guide</a></li>
+<li><a href=/miplanner/>mi dai</a></li>
+<li><a href=/miwai/>mi wai</a></li>
+</ul>
+</nav>
 </body>
 </html>

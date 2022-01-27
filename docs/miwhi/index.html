@@ -6,28 +6,59 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=”robots” content="index, follow">
 <meta name=msvalidate.01 content>
-<link href="/css/main.min.b7707d6f97c1c4c115c855f93145e21e98a4af32d82a5a19dbb087ac223c6928.css" rel=stylesheet integrity="sha256-t3B9b5fBxMEVyFX5MUXiHpikrzLYKloZ27CHrCI8aSg=">
+<link href="/css/main.min.c55bf0fb7980f0ed29b3fcaa5f74a2f377d2b117c555fc362d931e18d28f6285.css" rel=stylesheet integrity="sha256-xVvw+3mA8O0ps/yqX3Si83fSsRfFVfw2LZMeGNKPYoU=">
 <link rel=stylesheet media=print href=/css/print.css>
 <script src=https://code.jquery.com/jquery-3.6.0.slim.min.js crossorigin=anonymous integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
 <script src=/js/stupidtable.min.js></script>
 <script src=/js/smartquotes.js></script>
-<script src=/js/bundle.min.d3d848c49f467ca31410f8372718640476638946e69b74bc8f6a81512a45c6cf.js integrity="sha256-09hIxJ9GfKMUEPg3JxhkBHZjiUbmm3S8j2qBUSpFxs8="></script>
+<script src=/js/bundle.min.74b36882f73f8cf683e4a7557af5e59838cc5fb0bd5559ce0584a18024f6fd7d.js integrity="sha256-dLNogvc/jPaD5KdVevXlmDjMX7C9VVnOBYShgCT2/X0="></script>
 </head>
-<body>
+<body id=thisismitime>
 <header>
-<nav id=breadcrumbs>
-<a href=https://thisismitime.com class=homelink>this is mitime</a>
-</nav>
+<div class=inner>
+<figure id=logo><svg viewBox="0 0 241 38" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-16.215 -125.04)"><rect id="crosst" transform="rotate(90)" x="125.1" y="-142.38" width="8.798" height="60.639" ry="1.0452"/><rect x="81.693" y="139.55" width="14.968" height="23.352" ry=".40251"/><rect x="104.57" y="139.55" width="14.968" height="23.352" ry=".40251"/><rect x="127.45" y="139.56" width="14.968" height="23.352" ry=".40251"/><g transform="matrix(3.8118 0 0 3.8118 -268.01 -184.56)"><rect x="109.75" y="81.239" width="3.9057" height="9.9057" ry=".17074"/><rect x="115.36" y="81.239" width="3.9057" height="9.9057" ry=".17074"/><rect x="120.94" y="81.238" width="3.9057" height="9.9057" ry=".17074"/><rect transform="rotate(90)" x="81.227" y="-124.86" width="2.325" height="10.513" ry=".18121"/></g><g transform="matrix(3.8118 0 0 3.8118 -254.79 -187.75)"><rect x="71.097" y="82.077" width="3.9057" height="9.9057" ry=".17074"/><rect x="76.705" y="82.076" width="3.9057" height="9.9057" ry=".17074"/><rect x="82.283" y="82.075" width="3.9057" height="9.9057" ry=".17074"/><rect transform="rotate(90)" x="82.064" y="-86.2" width="2.325" height="10.513" ry=".18121"/></g><g transform="matrix(3.8118 0 0 3.8118 -268.01 -184.56)"><rect x="126.94" y="81.238" width="3.9057" height="9.9057" ry=".17074"/><rect transform="rotate(90)" x="81.222" y="-137.67" width="2.3428" height="6.1378" ry=".1058"/><rect transform="rotate(90)" x="88.821" y="-137.66" width="2.3428" height="6.1378" ry=".1058"/><rect transform="rotate(90)" x="85.022" y="-137.67" width="2.3428" height="6.1378" ry=".1058"/></g></g></svg>
+</figure>
+<div id=digitalclock>
+<span class=midigital>
+mitime is <span id=mitime></span>
+</span>
+<span id=standarddigital class=small-text>
+(<span id=standardtime></span> local time)
+</span>
+<script defer>setInterval('miclock("#miclock", "#mitime", "#standardtime", 4, 4, 4, 6)',1e3)</script>
+</div>
+</div>
+<div id=curve><svg viewBox="0 0 1440 144" xmlns="http://www.w3.org/2000/svg"><path d="m1440 0-80 11.981c-80 12.206-240 35.83-4e2 53.999-160 17.831-320 30.206-480 30.037-160 .16875-320-12.206-4e2-18L0 71.9984v71.998h80 4e2 480 4e2 80z"/></svg>
+</div>
 </header>
 <main id=miwhi class=single>
 <article>
 <h1>mi whi</h1>
 <div class=meta>Last Update:
-<time datetime="Tuesday 25 Jan 2022" class=text-muted>
-Tuesday 25 Jan 2022
+<time datetime="Wednesday 26 Jan 2022" class=text-muted>
+Wednesday 26 Jan 2022
 </time>
 </div>
 <div>
+<div class=summary>
+</div>
+<p>Recently, when I began working full-time for myself, I suddenly had much more direct control over much more of my time, and I knew I had to figure out how to best organize my time to be productive.</p>
+<p>Relying on my project management background, I began specifying my goals and their scope, and started to think of breaking them into milestones and scheduling time for them.</p>
+<p>While this was all necessary, I was still missing something crucial. I still had not thought directly about how to organize my day effectively, and this was the essence of the challenge posed by having more control over my time. At a meta level, how do I structure my available time?</p>
+<p>This need was most obvious at the level of my day, as this was the level at which time was now suddenly unstructured. I was no longer as tightly tied to the structure of the normal business day, and with fewer constraints, (the most obvious being a commute), the natural question to ask was could I structure my time in a way that is more effective for me and my work.</p>
+<p>Thinking through the problem in my journal, I realized that our standard way of telling time does not support structuring that time well. Standard time is highly precise, generalized, uniform, widely used and as a result, widely applicable. Standard time excels at tasks such as record keeping (particularly financial), making itineraries and scheduling doctors appointments, etc. But by itself, standard time does not directly support planning for example. In fact, its high precision and uniformity get in the way of thinking effectively about its structure.</p>
+<p>I needed a way to structure time that was simple to use and compatible with standard time. And unlike standard time, which is often focused on the past, I was only concerned with available time, time directly under my control that was potentially productive time.</p>
+<p>After more exploration, I realized that I was unlikely to get a better idea of how to structure time without significant direct experimentation. So, in the meantime, I needed a simple framework for defining a more abstract structure that could be consistently applied and easily reconfigured to support this experimentation. This led me to develop the concept of mitimezones and of course, mi, the fundamental unit of mitime.</p>
+<p>Similar to the number <a href=https://en.wikipedia.org/wiki/Kevin_Malone>Keleven</a>, mi is just a means to an end. It only has meaning for the person using it. Choosing 4 as the initial standard was logical for many reasons. It is consistent with our cultural tendency to think of time in quarters, and allows us to use quarters all the way down. Its consistency and uniformity made is the most generalized starting point, so that became the standard.</p>
+<p>Mi facilitates a minimal structure that can be easily reconfigured and still be easily understandable. It chunks up the day into more natural units that are uniform and can thus be reorganized easily.</p>
+<p>Some of the more immediate implications of mitime:</p>
+<ul>
+<li>Whereas standard time focuses more on specific points in time, <strong>mitime is less precise and focuses on uniform chunks of time.</strong></li>
+<li>Whereas standard time tells you what time of day it is, <strong>mitime tells you where you are in your day.</strong></li>
+<li>Whereas standard time is often focused on what has occurred in the past, <strong>mitime is only concerned with available time.</strong></li>
+<li>Because mitime is only concerned with available time, <strong>mitime counts down.</strong></li>
+<li>If you planned your day according to the mi structure, knowing the <strong>mitime also makes a more intuitive connection between where you are in your day and where you are in your schedule.</strong> You will immediately have a sense of how well you are progressing against your goals.</li>
+</ul>
 </div>
 </article>
 </main>
@@ -42,8 +73,15 @@ Tuesday 25 Jan 2022
 </div>
 </div>
 </aside>
-<footer>
-<p>&copy; 2022 <a href=https://thisismitime.com>this is mitime</a></p>
-</footer>
+<nav id=menumain>
+<ul>
+<li><a href=https://thisismitime.com class=homelink>this is mitime</a>
+</li>
+<li><a href=/miwhi/>mi whi</a></li>
+<li><a href=/miguide/>mi guide</a></li>
+<li><a href=/miplanner/>mi dai</a></li>
+<li><a href=/miwai/>mi wai</a></li>
+</ul>
+</nav>
 </body>
 </html>
