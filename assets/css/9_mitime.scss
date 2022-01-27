@@ -38,8 +38,9 @@ header .inner {
     max-width: 800px;
 }
 
-header.down {
-    background-color: $down-color;
+body.down header {
+    background-color: black; 
+    /*$down-color;*/
 }
 
 .homelink, .meta, aside {
