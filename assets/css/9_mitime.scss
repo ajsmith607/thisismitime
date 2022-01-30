@@ -132,7 +132,7 @@ main a {
 }
 
 main .subhead {
-    padding: 1rem 35% 2rem 0;  
+    padding: 1rem 35% 1rem 0;  
     text-align: center;
     font-size: 5rem;
     line-height: 5rem;
@@ -226,4 +226,5 @@ footer article h2 {
     header .subhead, header #digitalclock { padding-top: 0; padding-left: 0; padding-bottom: 0; marging-bottom: 0; } 
     header #digitalclock, footer .inner { text-align: left; margin-left: 0; }
     header .grid-container { grid-template-columns: 1fr; justify-items: left; } /* allows responsiveness of columns of uneven widths */
+    table.miplanner { @include v-rhythm(0); }
 }
