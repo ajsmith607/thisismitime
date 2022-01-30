@@ -180,10 +180,10 @@
         <figure id="analogclock" class="grid-item">
             {{ .Scratch.Set "svgpath" "img/miclock.svg" }}
             {{ partial "inline-svg.html" . }}
+            <script defer>
+                setInterval('miclock("#miclock", "#mitime", "#standardtime", 4, 4, 4, 6)', 1000 );
+            </script>  
         </figure>
-        <script defer>
-            setInterval('miclock("#miclock", "#mitime", "#standardtime", 4, 4, 4, 6)', 1000 );
-        </script>  
         <div class="grid-item">
             {{ partial "mainmenu.html" . }}
         </div> 

@@ -1,6 +1,6 @@
 ---
 title: "mi wai"
-summary: "exploring philosophy and methodology"
+summary: "from practice to theory"
 menu: "main"
 weight: 4
 mainid: "miwai"

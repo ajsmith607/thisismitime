@@ -25,8 +25,8 @@ lastmod = [":fileModTime", ":default"] # auto populates lastmod date
         foregroundColor = "#ffffff"
         accentColor = "#ff6a1f"
         accentColor2 = "#ffad2b"
-        activeLinkColor = "#ff6a1f"
-        visitedLinkColor = "#058aff"   
+        activeLinkColor = "#ffad2b"
+        visitedLinkColor = "#ffad2b"   
         fontFamily = "Optima, Candara, Calibri, Arial, sans-serif"
         # mitime specific colors
         downColor = "black"

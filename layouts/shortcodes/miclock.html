@@ -1,0 +1,18 @@
+
+{{ $id := .Get 0 | default ("miclock") }}
+
+<figure id="{{ . }}" class="analogclock" class="gallery-item">
+    {{ .Scratch.Set "svgpath" "img/mitime-logo-opt.svg" }}
+    {{ partial "inline-svg.html" . }}
+    <footer>
+        <div id="digitalclock" class="grid-item">
+            mitime is <span id="mitime"></span>
+        </div> 
+        <div id="standarddigital"> 
+            (<span id="standardtime"></span> local time)
+        </div> 
+        <script defer>
+            setInterval('miclock("#{{ . }}", "#mitime", "#standardtime", 4, 4, 4, 6)', 1000 );
+        </script>
+    </footer>
+</figure>

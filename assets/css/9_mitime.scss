@@ -1,4 +1,3 @@
-
 /* 
 colors
 blue: #058aff
@@ -21,6 +20,9 @@ light gray: #f3f4f5
 
 */
 
+html{
+  background-color: white;
+}
 
 header {
     margin: 0;
@@ -38,6 +40,7 @@ header .inner {
     max-width: 800px;
 }
 
+
 body.down header header {
     background-color: black; 
     /*$down-color;*/
@@ -49,6 +52,8 @@ body.down header header {
 
 .small-text {
     @include v-rhythm(0);
+    padding-top: 0;
+    margin-bottom: 0;
 }
 
 figure {
@@ -72,10 +77,6 @@ svg#miclock {
     fill: $accent-color;
 }
 
-#digitalclock {
-  white-space: nowrap;
-}
-
 .midigital {
     font-weight: bold; 
 }
@@ -84,11 +85,29 @@ header {
     padding-bottom: -4rem; 
 }
 
+header .subhead {
+    @include v-rhythm(1);
+    text-align: left;
+    padding-top: 0;
+    padding-left: 6.9rem;
+    color: $accent-color;
+}
+
+header #digitalclock {
+    text-align: center;
+    margin-left: -16.5rem;
+}
+
 header #curve svg {
     display: block;
     margin: 0;
     padding: 0;
     fill: $background-color;
+}
+
+header div {
+  margin-bottom: 0;
+  padding-bottom: 0; 
 }
 
 .michar {
@@ -105,54 +124,106 @@ em {
 
 main {
   font-size: 124%; 
+  padding-bottom: 1rem;
 }
 
-main a {
-  font-weight: bold;
+main a { 
+    font-weight: bold;
 }
 
-div.subhead {
-    padding-right: 25%;
+main .subhead {
+    padding: 1rem 35% 2rem 0;  
     text-align: center;
-    @include v-rhythm(3);
     font-size: 5rem;
     line-height: 5rem;
     font-style: italic;
+    font-weight: lighter;
     color: $accent-color2;
 }
 
+main figure {
+    padding: 1em;
+    text-align: center;
+}
+
+figure.mainanalogclock svg {
+    display: block;
+    background-color: white;
+    padding: 3px;  
+}
+
 table.miplanner {
-    border: 0;
+    border: 2px solid $subtle-back-color;
     @include v-rhythm(1);
 }
 
 table.miplanner .mi {
-  border-left: 1px solid $subtle-back-color;
-  vertical-align: top;
-  border-right: 1px solid $subtle-back-color;
-}
-
-table.miplanner .mh {
-    border-right: 1px solid $subtle-back-color;
+    width: 25%;
+    vertical-align: top;
 }
 
 table.miplanner td, table.miplanner th {
     background-color: $background-color;
-    border-bottom: 1px solid $subtle-back-color;
     opacity: 100%;
     padding-left: 2rem;
 }
 
-table.miplanner th {  
-    border-top: 1px solid $subtle-back-color;
+table.miplanner td {
+    border-bottom: 1px dashed $subtle-back-color;
 }
 
-table.miplanner tr:nth-child(even) {
-    background-color: lighten($background-color, 60%);
+footer {
+    @include v-rhythm(1);
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+    max-width: 100%;
+    background-color: $color;
+    color: $accent-color;  
+    font-style: italic; 
+    font-weight: 200;  
+}
+
+footer a, footer a:visited {
+  color: $background-color;
+  font-style: normal; 
+  font-weight: bold; 
+}
+
+footer .inner {
+    padding: 0 1rem 0 1rem;
+    margin: 0 auto; 
+    max-width: 800px;
+}
+
+#footercurve svg {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    fill: $background-color;
+    transform: scaleY(-1);
+}
+
+footer .small-text {
+    color: $background-color;
+    padding-top: 3em;
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer .small-text a {
+    color: $background-color;
+    font-weight: normal;
+}
+
+footer article h2 {
+  padding-top: 0;
 }
 
 @media only screen and (max-width: 800px) {
-    div.subhead { @include v-rhythm(3); text-align: left; } 
-    header .midigital { @include v-rhythm(0); } 
+    main div.subhead { @include v-rhythm(3); text-align: left; } 
+    header .subhead, header #digitalclock { padding-top: 0; padding-left: 0; padding-bottom: 0; marging-bottom: 0; } 
+    header #digitalclock, footer .inner { text-align: left; margin-left: 0; }
     header .grid-container { grid-template-columns: 1fr; justify-items: left; } /* allows responsiveness of columns of uneven widths */
 }

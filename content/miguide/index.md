@@ -6,18 +6,16 @@ mainid: "miguide"
 summary: "the essential reference"
 ---
 
-**Mitime** (pronounced "my time") is a minimal structure mapped over standard time that describes available time in a day.
+**Mitime** (pronounced "my time") is a minimal metastructure mapped over standard time that describes available time in a day. Because mitime describes available time, mitime counts down.
 
 Mitime is represented by the following format:  
 
 *M.H.N* 
 
 Where:
-- *M* is the **mi** ({{% mi %}}), the most important number in mitime, defining the largest subdivision of the day. By default this is 4. 
-- *H* is the *mihour*. Like standard hours, mihours are 60 standard minutes in length. By default, there are 4 mihours in every mi.
-- *N* is the *miminute*. By default, there are 4 miminutes in every mihour. 
-
-Because mitime describes available time, mitime counts down.
+- *M* is the **mi** ({{% mi %}}), the largest subdivision of the day.
+- *H* is the *mihour*. Like standard hours, mihours are 60 standard minutes in length, facilitating coordination with standard time.
+- *N* is the *miminute*.
 
 Standard time outside of mitime is unavailable time and is not tracked. This is represented as zero mitime:
 
@@ -31,8 +29,8 @@ Where:
 - *MC* is the mi count, or the number of mis in a day.
 - *HC* is the mihour count, the number of hours in a mi.
 - *MC* is the miminute count, the number of miminutes in a mihour.
-- *S* is the *mistart*, the standard hour when mitime begins.
+- *S* is the *mistart*, the standard hour of the day when mitime begins. Mistart is based on a 24 hour clock, like military time.  
 
-The mitimezone **4.4.4.6** is the default reference mitimezone used throughout and is called *Standard Mitime*, abbreviated *SM*. 
+The mitimezone **4.4.4.6** is the default reference mitimezone used throughout and is called *Standard Mitime*, abbreviated *SM*. Standard Mitime is the most generalized structure and reflects a number of cultural expectations we have about time, such as 16 waking hours and our tendency to divide time by quarters. 
 
-Because mitime is a countdown timer structured under the mi, the mitimezone mirrors the first unit of mitime in a day. The last unit of mitime before zero mitime is always 1.1.1 . 
+Because mitime counts down, the mitimezone mirrors the first unit of mitime in a day. The last unit of mitime before zero mitime is always 1.1.1 . 

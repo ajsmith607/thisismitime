@@ -1,5 +1,6 @@
 <header>
     <div class="inner">
+        <p class="subhead">minimal time metastructure</p>
         <a href="{{ with .Site.BaseURL }} {{ . }} {{ end }}">
             <figure id="logo">
                 {{ .Scratch.Set "svgpath" "img/mitime-logo-opt.svg" }}
@@ -8,12 +9,12 @@
         </a>
 
         <div id="digitalclock"> 
-            <span class="midigital"> 
+            <div class="midigital"> 
                 mitime is <span id="mitime"></span>
-            </span>
-            <span id="standarddigital" class="small-text"> 
+            </div>
+            <div id="standarddigital" class="small-text"> 
                 (<span id="standardtime"></span> local time)
-            </span>
+            </div>
             <script defer>
                 setInterval('miclock("#miclock", "#mitime", "#standardtime", 4, 4, 4, 6)', 1000 );
             </script>  
