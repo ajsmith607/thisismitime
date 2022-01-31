@@ -33,7 +33,9 @@ Where additionally:
 - *MC* is the miminute count, the number of miminutes in a mihour.
 - *S* is the *mistart*, the standard hour of the day when mitime begins. Mistart is based on a 24 hour clock, like hours in military time.  
 
-The mitimezone **4.4.4.6** is the default reference mitimezone used throughout and is called *Standard Mitime*, abbreviated *SM*. Standard Mitime is the most generalized structure and reflects a number of existing cultural expectations about the structure of time, such as 16 waking hours and the tendency to divide time by quarters, along with the concept of a "business day." 
+The mitimezone **4.4.4.6** is the default reference mitimezone used throughout and is called *Standard Mitime*, abbreviated *SM*. Standard Mitime is the most generalized structure and reflects a number of existing cultural expectations about the structure of time, such as 16 waking hours and the tendency to divide time by quarters, along with the concept of the "business day." 
+
+While Standard Mitime will fit many people, it is expected that people will configure their mitimezone to their unique needs. Mitimezones allow for cross-compatible variations over time, so experimentation is less expensive.
 
 Because mitime counts down, the mitimezone mirrors the first unit of mitime in a day. The last unit of mitime before 0.0.0 is 1.1.1 for all mitimezones. 
 
