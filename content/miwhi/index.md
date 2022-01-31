@@ -14,7 +14,7 @@ While this was all necessary, I still had not thought specifically about how to 
 
 I quickly realized that our standard way of telling time does not directly support structuring that time well. Standard time is highly precise, generalized, uniform, widely used and as a result, widely applicable. Standard time excels at tasks such as record keeping (particularly financial), making itineraries and scheduling doctors appointments, etc. But the high precision and uniformity of standard time actually makes it harder to think about structuring time effectively.
  
-I further reasoned that the typical structure of our time is so fundamentally cultural in nature (such as a nine-to-five business day, three meals a day at specific times, etc.) that I needed to completely deconstruct time to allow patterns and best practices to emerge more clearly. 
+I further reasoned that the typical structure of our time is so fundamentally cultural in nature (such as a nine-to-five business day, three meals a day at specific times, etc.) that I needed to deconstruct our ideas about time itself to allow patterns and best practices to emerge more clearly. 
 
 I needed a way to structure time that was simple to use and compatible with standard time. And unlike standard time, which is often focused on the past, I was only concerned with available time, time directly under my control that was potentially productive time.
 
