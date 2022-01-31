@@ -10,7 +10,7 @@ The subdivisions of mitime lend themselves to planning tools, such as this simpl
 
 {{< miplanner >}}
 
-This clearly shows how the day can be organized according to goals and priorities, with the mi representing larger scoped areas, such as a project, a complex task, an area of your life, and the mihours being smaller milestones, subtasks, etc. Because all units are equal, they are easily interchangeable and can be easily as needed.
+This clearly shows how the day can be organized according to goals and priorities, with the mi representing larger scoped areas, such as a project, a complex task, an area of your life, and the mihours being smaller milestones, subtasks, etc. Because all units are equal, they are easily interchangeable and can be rearranged as needed.
 
 Immediate implications are that knowing the mitime doesn't tell you the time of day so much as it tells you where you are in your day, how well you are progressing against your goals, and how much time remains. 
 
