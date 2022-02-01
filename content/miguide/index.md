@@ -23,7 +23,7 @@ Standard time outside of mitime is unavailable time and is not tracked. This is 
 
 *0.0.0*
 
-*Mitimezones* describe the structure of mitime, and how it maps to standard time. Therefore, a completely explicit mitime reference includes its mitimezone in the following format starting with the basic mitime format already discussed above:
+*Mitimezones* describe the structure of mitime, and how mitime maps to standard time. Therefore, a completely explicit mitime reference includes its mitimezone in the following format starting with the basic mitime format already discussed above:
 
 *M.H.N {{% mi %}} MC.HC.MC.S* 
 
