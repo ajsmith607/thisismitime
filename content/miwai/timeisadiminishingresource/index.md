@@ -12,6 +12,6 @@ Mitime seeks to organize this time better, to better facilitate goals and priori
 
 Whereas standard time answers the question "what time is it" mitime answers the question "where am I in my day?" 
 
-As a result, mitime focuses less on the constraints on our time, what is demanded of us. Mitime focuses more on how we spend our time, and whether that time was spent on something meaningful. 
+As a result, mitime focuses less on the constraints on our time, what is demanded of us. Mitime focuses more on how we spend our time, and whether that time is spent on something meaningful. 
 
 Mitime encourages us to spend our precious time on the things we value most. 

@@ -13,7 +13,7 @@
 <script src=https://code.jquery.com/jquery-3.6.0.slim.min.js crossorigin=anonymous integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
 <script src=/js/stupidtable.min.js></script>
 <script src=/js/smartquotes.js></script>
-<script src=/js/bundle.min.75e9b7e0587150ac5cfb6e38c0050dd449600198810731d50f4fe1944a0a341a.js integrity="sha256-dem34FhxUKxc+244wAUN1ElgAZiBBzHVD0/hlEoKNBo="></script>
+<script src=/js/bundle.min.85f3c6016c1f258a13efa06fdb1587e50660f6db265cf6e39503b4e77304ae83.js integrity="sha256-hfPGAWwfJYoT76Bv2xWH5QZg9tsmXPbjlQO053MEroM="></script>
 </head>
 <body id=thisismitime>
 <header>
@@ -30,7 +30,7 @@ mitime is <span id=mitime></span>
 <div id=standarddigital class=small-text>
 (<span id=standardtime></span> local time)
 </div>
-<script defer>setInterval('miclock("#miclock", "#mitime", "#standardtime", 4, 4, 4, 6)',1e3)</script>
+<script defer>setInterval('getDisplayMitime("#mitime", "#standardtime", 4, 4, 4, 6)',1e3)</script>
 </div>
 </div>
 <div id=curve><svg viewBox="0 0 1440 144" xmlns="http://www.w3.org/2000/svg"><path d="m1440 0-80 11.981c-80 12.206-240 35.83-4e2 53.999-160 17.831-320 30.206-480 30.037-160 .16875-320-12.206-4e2-18L0 71.9984v71.998h80 4e2 480 4e2 80z"/></svg>
