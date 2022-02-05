@@ -1,7 +1,7 @@
 ---
 title: "decide to act"
 summary: "decide to act"
-draft: true;
+draft: true
 ---
 
 I remember hearing an old trick to exercise willpower. People who were finding it difficult to begin, say, a new diet, were asked to do something extremely effortless and also arbitrary, even silly, at a certain time each day. The classic example I remember is putting a sock over a lampshade. The silliness of the exercise was by design.
