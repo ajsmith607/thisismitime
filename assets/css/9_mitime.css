@@ -21,7 +21,7 @@ light gray: #f3f4f5
 
 
 html{ background-color: var(--color); }
-.homelink, .meta, aside { display: none; }
+.homelink, .meta, aside, footer .more-link { display: none; }
 
 
 header, footer {
