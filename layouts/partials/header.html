@@ -1,6 +1,6 @@
 <header>
     <div class="inner">
-        <p class="subhead">minimal time metastructure</p>
+        <p class="subhead headtext">minimal time metastructure</p>
         <a href="{{ with .Site.BaseURL }} {{ . }} {{ end }}">
             <figure id="logo">
                 {{ .Scratch.Set "svgpath" "img/mitime-logo-opt.svg" }}
@@ -8,19 +8,17 @@
             </figure>
         </a>
 
-        <div id="digitalclock"> 
-            <div class="midigital"> 
-                mitime is <span id="mitime"></span>
-            </div>
-            <div id="standarddigital" class="small-text"> 
-                (<span id="standardtime"></span> local time)
-            </div>
-            <script defer>
-                setInterval('getDisplayMitime("#mitime", "#standardtime", 4, 4, 4, 6)', 1000 );
-            </script>  
-        </div> 
+        <p class="midigital headtext"> 
+            mitime is <span id="mitime"></span>
+        </p>
+        <p class="standarddigital headtext small"> 
+            (<span id="standardtime"></span> local time)
+        </p >
+        <script defer>
+            setInterval('getDisplayMitime("#mitime", "#standardtime", 4, 4, 4, 6)', 1000 );
+        </script>  
     </div>
-    <div id="curve">
+    <div class="curve">
         {{- readFile "assets/img/more.svg" | safeHTML -}}
     </div> 
 </header>

@@ -1,6 +1,6 @@
 ---
 title: "mi dai"
-summary: "make more of mitime" 
+summary: "making more of mitime" 
 menu: "main"
 weight: 3
 mainid: "miplanner"
@@ -18,8 +18,8 @@ While this is useful for task planning, it perhaps excels even more at planning 
 
 A *miclock*, such as the real-time version on the home page, is a quick visualization of mitime in the form of a traditional analog clock. It matches our expectation of a clock that moves clock-wise, but remember that mitime **counts down:** 
 
-<figure>
+<figure class="image"> 
 {{< inline-svg "img/miclock-allnums.svg" >}}
-miclock during 3.2.4 sm
+<figcaption>miclock during 3.2.4 sm</figcaption>
 </figure> 
 

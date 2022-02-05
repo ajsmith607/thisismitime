@@ -1,11 +1,11 @@
 <footer>
-        <div id="footercurve">
+        <div class="curve">
             {{- readFile "assets/img/more.svg" | safeHTML -}}
         </div> 
     <div class="inner">
         {{ .Scratch.Set "parent" .Site.Home }}
         {{ partial "list-children.html" . }}
-        <div class="small-text">
+        <div class="small">
             <p>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></p>
         </div>
     </div> 

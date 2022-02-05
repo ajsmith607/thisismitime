@@ -20,6 +20,22 @@ light gray: #f3f4f5
 
 */
 
+:root {
+    --font-family: Lucida Sans, Helvetica, Arial, sans-serif; 
+    --font-size: 20px;
+    --mobile-font-size: 16px; 
+    --line-height-unitless: 1.5;
+    --line-height: calc( var(--line-height-unitless) * 1rem);
+    --max-width: 35rem;  
+    --background-color: #ffffff;
+    --background-color2: #6b5952;
+    --color: #d1c5be;
+    --active-link-color: #ebaf36;
+    --visited-link-color: #ba934c;
+    --border-color: #ebaf36;
+    --down-color: black;
+}
+
 html{
   background-color: white;
 }
@@ -28,7 +44,6 @@ header {
     margin: 0;
     padding: 0; 
     width: 100%;
-    max-width: 100%;
     background-color: $color;
     color: $background-color;
     @include v-rhythm(1);
@@ -41,14 +56,9 @@ header .inner {
 }
 
 
-body.down header header {
-    background-color: black; 
-    /*$down-color;*/
-}
+body.down header header { background-color: black; }
 
-.homelink, .meta, aside {
-    display: none;
-}
+.homelink, .meta, aside { display: none; }
 
 .small-text {
     @include v-rhythm(0);
@@ -62,7 +72,6 @@ figure {
 }
  
 svg#miclock {
-    width: 100%;
     max-width: 300px;
     height: auto; 
 }
