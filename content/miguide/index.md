@@ -25,12 +25,12 @@ Standard time outside of mitime is unavailable time and is not tracked. This is 
 
 *Mitimezones* describe the structure of mitime, and how mitime maps to standard time. Therefore, a completely explicit mitime reference includes its mitimezone in the following format starting with the basic mitime format already discussed above:
 
-*M.H.N {{% mi %}} MC.HC.MC.S* 
+*M.H.N {{% mi %}} MC.HC.NC.S* 
 
 Where additionally:
 - *MC* is the mi count, or the number of mis in a day.
 - *HC* is the mihour count, the number of mihours in a mi.
-- *MC* is the miminute count, the number of miminutes in a mihour.
+- *NC* is the miminute count, the number of miminutes in a mihour.
 - *S* is the *mistart*, the standard hour of the day when mitime begins. Mistart is based on a 24 hour clock, like hours in military time.  
 
 The mitimezone **4.4.4.6** is the default reference mitimezone used throughout and is called *Standard Mitime*, abbreviated *SM*. Standard Mitime is the most generalized structure and reflects a number of existing cultural expectations about the structure of time, such as 16 waking hours and the tendency to divide time by quarters, along with the concept of the "business day." 
