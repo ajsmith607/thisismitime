@@ -1,8 +1,8 @@
 ---
-title: "mi guide"
+title: "mi kei"
 menu: "main"
 weight: 2 
-mainid: "miguide"
+mainid: "mikei"
 summary: "the essential reference"
 ---
 

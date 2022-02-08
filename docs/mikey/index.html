@@ -1,7 +1,7 @@
 <!doctype html><html lang=en-us>
 <head>
 <meta charset=utf-8>
-<title>mi whi</title>
+<title>mi kei</title>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=”robots” content="index, follow">
@@ -32,31 +32,40 @@ mitime is <span id=mitime></span>
 <div class=curve><svg viewBox="0 0 1440 144" xmlns="http://www.w3.org/2000/svg"><path d="m1440 0-80 11.981c-80 12.206-240 35.83-4e2 53.999-160 17.831-320 30.206-480 30.037-160 .16875-320-12.206-4e2-18L0 71.9984v71.998h80 4e2 480 4e2 80z"/></svg>
 </div>
 </header>
-<main id=miwhi class=single>
+<main id=mikei class=single>
 <article>
 <div class=subhead>
-the motivation behind mitime
+the essential reference
 </div>
-<h1>mi whi</h1>
+<h1>mi kei</h1>
 <div>
-<p>Recently, when I began working full-time for myself, I suddenly had much more direct control over much more of my time. I now had both the opportunity—and the responsibility—to figure out how to organize my time for optimal productivity.</p>
-<p>Relying on my project management background, I began specifying my goals and their scope, breaking them into milestones and scheduling time for them.</p>
-<p>While this was all necessary, I still had not thought specifically about how to organize my day most effectively, and this was the essence of the challenge posed by having more control over my time. I was no longer as tightly tied to the structure of the normal business day, and with fewer constraints, (the most obvious being a commute), the natural question to ask was. at meta level, how do I structure my available time most effectively?</p>
-<p>I quickly realized that our standard way of telling time does not directly support structuring that time well. Standard time is highly precise, generalized, uniform, widely used and as a result, widely applicable. Standard time excels at tasks such as record keeping (particularly financial), making itineraries and scheduling doctors appointments, etc. But the high precision and uniformity of standard time actually makes it harder to think about structuring time effectively.</p>
-<p>I further reasoned that the typical structure of our time is so fundamentally cultural in nature (such as a nine-to-five business day, three meals a day at specific times, etc.) that I needed to deconstruct our ideas about time itself to allow patterns and best practices to emerge more clearly.</p>
-<p>I needed a way to structure time that was simple to use and compatible with standard time. And unlike standard time, which is often focused on the past, I was only concerned with available time, time directly under my control that was potentially productive time.</p>
-<p>So, I created mitime as an abstract meta-structure that would give me a consistent way of exploring best practices for organizing time.</p>
-<p>The base unit of mitime is mi ( <span class=michar>ᚃ</span>
-), a magic number that only has meaning to the person using it. Choosing 4 as the initial standard was logical for many reasons. It is consistent with our cultural tendency to think of time in quarters, and allows us to use quarters all the way down. Its consistency and uniformity made it the most logical starting point, so that became the standard.</p>
-<p>Mi facilitates a minimal structure that can be easily reconfigured and still be easily understandable. It chunks up the day into more natural units that are uniform and can thus be reorganized easily.</p>
-<p>Some of the more immediate implications of mitime:</p>
+<p><strong>Mitime</strong> (pronounced &ldquo;my time&rdquo;) is a minimal metastructure mapped over standard time that counts down available time in a day.</p>
+<p>Mitime is represented by the following format:</p>
+<p><em>M.H.N</em></p>
+<p>Where:</p>
 <ul>
-<li>Whereas standard time focuses more on specific points in time, <strong>mitime is less precise and focuses on uniform chunks of time.</strong></li>
-<li>Whereas standard time tells you what time of day it is, <strong>mitime tells you where you are in your day.</strong></li>
-<li>Whereas standard time is often focused on what has occurred in the past, <strong>mitime is only concerned with available time.</strong></li>
-<li>Because mitime is only concerned with available time, <strong>mitime counts down.</strong></li>
-<li>If you planned your day according to the mi structure, knowing the <strong>mitime also makes a more intuitive connection between where you are in your day and where you are in your schedule.</strong> You will immediately have a sense of how well you are progressing against your goals.</li>
+<li><em>M</em> is the <strong>mi</strong> (<span class=michar>ᚃ</span>
+), a magic number that represents the largest subdivision of the day.</li>
+<li><em>H</em> is the <em>mihour</em>. Like standard hours, mihours are 60 standard minutes in length, facilitating coordination with standard time. Mihours are numbered relative to their containing mi.</li>
+<li><em>N</em> is the <em>miminute</em>. Miminutes are numbered relative to their containing mihour.</li>
 </ul>
+<p>Because mitime counts down, all numbers are reversed chronologically.</p>
+<p>Standard time outside of mitime is unavailable time and is not tracked. This is represented as zero mitime:</p>
+<p><em>0.0.0</em></p>
+<p><em>Mitimezones</em> describe the structure of mitime, and how mitime maps to standard time. Therefore, a completely explicit mitime reference includes its mitimezone in the following format starting with the basic mitime format already discussed above:</p>
+<p><em>M.H.N <span class=michar>ᚃ</span>
+MC.HC.NC.S</em></p>
+<p>Where additionally:</p>
+<ul>
+<li><em>MC</em> is the mi count, or the number of mis in a day.</li>
+<li><em>HC</em> is the mihour count, the number of mihours in a mi.</li>
+<li><em>NC</em> is the miminute count, the number of miminutes in a mihour.</li>
+<li><em>S</em> is the <em>mistart</em>, the standard hour of the day when mitime begins. Mistart is based on a 24 hour clock, like hours in military time.</li>
+</ul>
+<p>The mitimezone <strong>4.4.4.6</strong> is the default reference mitimezone used throughout and is called <em>Standard Mitime</em>, abbreviated <em>SM</em>. Standard Mitime is the most generalized structure and reflects a number of existing cultural expectations about the structure of time, such as 16 waking hours and the tendency to divide time by quarters, along with the concept of the &ldquo;business day.&rdquo;</p>
+<p>While Standard Mitime will fit many people, it is expected that people will configure their mitimezone to their unique needs. Mitimezones allow for cross-compatible variations over time, so experimentation is less expensive.</p>
+<p>Because mitime counts down, the mitimezone mirrors the first unit of mitime in a day. The last unit of mitime before 0.0.0 is 1.1.1 for all mitimezones.</p>
+<p>Because mitime is compatible with standard time, standard time is always available as a fallback time specifier alongside mitime when higher precision is needed.</p>
 </div>
 </article>
 </main>
