@@ -25,7 +25,7 @@ The base unit of mitime is mi ( {{% mi %}} ), a magic number that only has meani
 Mi facilitates a minimal structure that can be easily reconfigured and still be easily understandable. It chunks up the day into more natural units that are uniform and can thus be reorganized easily.
 
 Some of the more immediate implications of mitime:
-- Whereas standard time focuses more on specific points in time, **mitime is less precise and focuses on uniform chunks of time.**
+- Whereas standard time focuses more on specific points in time, **mitime is less precise and focuses on uniform chunks of time remaining in a day.**
 - Whereas standard time tells you what time of day it is, **mitime tells you where you are in your day.**
 - Whereas standard time is often focused on what has occurred in the past, **mitime is only concerned with available time.**
 - Because mitime is only concerned with available time, **mitime counts down.**
