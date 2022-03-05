@@ -10,7 +10,7 @@ The uniform subdivisions of mitime lend themselves to planning tools, such as th
 
 {{< miplanner >}}
 
-This clearly shows how the day can be organized according to goals and priorities, with the mi representing larger scoped areas, such as a project, a complex task, an area of your life, and the mihours being smaller milestones, subtasks, etc. Because all units are equal, they are easily interchangeable and can be rearranged as needed.
+This clearly shows how the day can be organized according to goals and priorities, with the mi representing larger scoped areas, such as a project, a complex task, or an area of your life, while the mihours represent smaller milestones, subtasks, etc. Because all units are equal, they are easily interchangeable and can be rearranged as needed.
 
 Immediate implications are that knowing the mitime doesn't tell you the time of day so much as it tells you where you are in your day, how well you are progressing against your goals, and how much time remains. 
 
@@ -23,4 +23,4 @@ A *miclock*, such as the real-time version on the home page, is a quick visualiz
 <figcaption>miclock during 3.2.4 sm</figcaption>
 </figure> 
 
-A visualization like this will likely be used in a different way from a digital representation of mitime, however, to make the reading of the miclock more intuitive, remember that mitime is a count of time remaining in a day, so translation becomes easier if you count outside it, counterclockwise. 
+A visualization like this will likely be used in a different way from a digital representation of mitime, however, to make the reading of the miclock more intuitive, remember that mitime is a count of time remaining in a day, so translation becomes easier if you count outside in, counterclockwise. 
