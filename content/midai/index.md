@@ -1,6 +1,6 @@
 ---
 title: "mi dai"
-summary: "making more of mitime" 
+summary: "making the most of mitime" 
 menu: "main"
 weight: 3
 mainid: "miplanner"
