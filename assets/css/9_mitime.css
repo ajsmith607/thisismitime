@@ -52,8 +52,9 @@ header p, header figure, header svg {
 }
 #logo svg #crosst { fill: var(--add-color); }
 p.headtext, main .subhead {
-   text-align: center;
-   margin-right: var(--align-wmi); 
+    text-transform: lowercase;  
+    text-align: center;
+    margin-right: var(--align-wmi); 
 }
 header .subhead, .midigital { font-weight: bold; }
 header .subhead { 
@@ -68,6 +69,8 @@ main .subhead {
     font-style: italic;
     color: var(--active-link-color);
 }
+
+h1, h2, article.summary content { text-transform: lowercase; }
 
 div.curve {
     width: 100%;

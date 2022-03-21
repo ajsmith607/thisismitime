@@ -1,7 +1,7 @@
 ---
 title: "time is an ever-diminishing resource"
 summary: "what are you buying with your time?"
-mainid: "miwhi"
+date: 2022-01-18
 ---
 
 Mitime only describes available time in a day. Therefore mitime counts down.
