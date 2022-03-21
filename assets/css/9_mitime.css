@@ -88,7 +88,7 @@ em {
 }
 
 main svg {
-    max-width: calc( var(--max-width) * .6 );
+    max-width: calc( var(--max-width) * 6 );
     margin: 0 auto;
 }
 main figcaption { text-align: center; } 
@@ -110,7 +110,7 @@ table.miplanner td {
 }
 
 
-footer { margin-top: calc( var(--line-height) * 6 ); color: var(--background-color); }
+footer { margin-top: calc( var(--line-height) * 3 ); color: var(--background-color); }
 footer .curve svg { transform: scaleY(-1); }
 footer a, footer a:visited {
   color: var(--background-color);
@@ -130,7 +130,6 @@ footer .small, footer .small a {
     text-decoration: none;  
 }
 footer article h2 { padding-top: 0; }
-
 
 
 /* this accounts for 16% offset above */
