@@ -110,7 +110,7 @@ table.miplanner td {
 }
 
 
-footer { color: var(--background-color); }
+footer { margin-top: calc( var(--line-height) * 6 ); color: var(--background-color); }
 footer .curve svg { transform: scaleY(-1); }
 footer a, footer a:visited {
   color: var(--background-color);
