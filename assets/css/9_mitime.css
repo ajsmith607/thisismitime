@@ -70,7 +70,7 @@ main .subhead {
     color: var(--active-link-color);
 }
 
-h1, h2, article.summary content { text-transform: lowercase; }
+h1, h2, article.summary .content { text-transform: lowercase; }
 
 div.curve {
     width: 100%;
