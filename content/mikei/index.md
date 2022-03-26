@@ -1,5 +1,5 @@
 ---
-title: "mi kei"
+title: "mikei"
 menu: "main"
 weight: 2 
 mainid: "mikei"
@@ -37,7 +37,7 @@ The mitimezone **4.4.4.6** is the default reference mitimezone used throughout a
 
 While Standard Mitime will fit many people, it is expected that people will configure their mitimezone to their unique needs. Mitimezones allow for cross-compatible variations over time, so experimentation is less expensive.
 
-Because mitime counts down, the mitimezone mirrors the first unit of mitime in a day. The last unit of mitime before 0.0.0 is 1.1.1 for all mitimezones. 
+Because mitime counts down, the mitimezone mirrors the first unit of mitime in a day, and the last unit of mitime before 0.0.0 is 1.1.1 for all mitimezones. 
 
 Because mitime is compatible with standard time, standard time is always available as a fallback time specifier alongside mitime when higher precision is needed.
 

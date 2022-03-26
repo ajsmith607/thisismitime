@@ -1,5 +1,5 @@
 ---
-title: "mi wai"
+title: "miwai"
 summary: "from practice to theory"
 menu: "main"
 weight: 4

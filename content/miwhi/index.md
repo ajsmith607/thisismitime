@@ -1,5 +1,5 @@
 ---
-title: "mi whi"
+title: "miwhi"
 summary: "the motivation behind mitime"
 menu: "main"
 weight: 1 

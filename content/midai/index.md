@@ -1,5 +1,5 @@
 ---
-title: "mi dai"
+title: "midai"
 summary: "making the most of mitime" 
 menu: "main"
 weight: 3
