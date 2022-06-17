@@ -1,6 +1,7 @@
 ---
 title: "miwhi"
 summary: "the motivation behind mitime"
+subhead: "the motivation behind mitime"
 menu: "main"
 weight: 1 
 mainid: "miwhi"

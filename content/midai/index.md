@@ -1,6 +1,7 @@
 ---
 title: "midai"
 summary: "making the most of mitime" 
+subhead: "making the most of mitime" 
 menu: "main"
 weight: 3
 mainid: "miplanner"

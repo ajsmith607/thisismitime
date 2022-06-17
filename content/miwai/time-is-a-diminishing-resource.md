@@ -1,6 +1,7 @@
 ---
 title: "time is an ever-diminishing resource"
 summary: "what are you buying with your time?"
+subhead: "what are you buying with your time?"
 date: 2022-01-18
 ---
 

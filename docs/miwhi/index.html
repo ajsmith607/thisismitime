@@ -5,7 +5,7 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=”robots” content="index, follow">
 <meta name=msvalidate.01 content>
-<link href=/css/style.min.52d70ab3d1f4db9f93ff695e6bc5312107e9841dd84aaea0d67a74dadd7e61a2.css rel=stylesheet integrity="sha256-UtcKs9H025+T/2lea8UxIQfphB3YSq6g1np02t1+YaI=">
+<link href=/css/style.min.93c1bb9b2f828c7bef0a3c3f50cfb32dfd69146c2953748f29181d69de796f7a.css rel=stylesheet integrity="sha256-k8G7my+CjHvvCjw/UM+zLf1pFGwpU3SPKRgdad55b3o=">
 <link rel=stylesheet media=print href=/css/print.css>
 <script src=https://code.jquery.com/jquery-3.6.0.slim.min.js crossorigin=anonymous integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
 <script src=/js/stupidtable.min.js></script>
@@ -24,10 +24,14 @@ mitime is <span id=mitime></span>
 </p><script defer>setInterval('getDisplayMitime("#mitime", "#standardtime", 4, 4, 4, 6)',1e3)</script>
 </div><div class=curve><svg viewBox="0 0 1440 144" xmlns="http://www.w3.org/2000/svg"><path d="m1440 0-80 11.981c-80 12.206-240 35.83-4e2 53.999-160 17.831-320 30.206-480 30.037-160 .16875-320-12.206-4e2-18L0 71.9984v71.998h80 4e2 480 4e2 80z"/></svg>
 </div></header><main id=miwhi class=single>
-<article>
 <div class=subhead>
 the motivation behind mitime
-</div><h1>miwhi</h1><div>
+</div><article>
+<h1>miwhi</h1><div class=meta>Last Update:
+<time datetime="Saturday 26 Mar 2022" class=text-muted>
+Saturday 26 Mar 2022
+</time>
+</div><div>
 <p>Recently, when I began working full-time for myself, I suddenly had much more direct control over much more of my time. I now had both the opportunity—and the responsibility—to figure out how to organize my time for optimal productivity.</p><p>Relying on my project management background, I began specifying my goals and their scope, breaking them into milestones and scheduling time for them.</p><p>While this was all necessary, I still had not thought specifically about how to organize my day most effectively, and this was the essence of the challenge posed by having more control over my time. I was no longer as tightly tied to the structure of the normal business day, and with fewer constraints, (the most obvious being a commute), the natural question to ask was. at meta level, how do I structure my available time most effectively?</p><p>I quickly realized that our standard way of telling time does not directly support structuring that time well. Standard time is highly precise, generalized, uniform, widely used and as a result, widely applicable. Standard time excels at tasks such as record keeping (particularly financial), making itineraries and scheduling doctors appointments, etc. But the high precision and uniformity of standard time actually makes it harder to think about structuring time effectively.</p><p>I further reasoned that the typical structure of our time is so fundamentally cultural in nature (such as a nine-to-five business day, three meals a day at specific times, etc.) that I needed to deconstruct our ideas about time itself to allow patterns and best practices to emerge more clearly.</p><p>I needed a way to structure time that was simple to use and compatible with standard time. And unlike standard time, which is often focused on the past, I was only concerned with available time, time directly under my control that was potentially productive time.</p><p>So, I created mitime as an abstract meta-structure that would give me a consistent way of exploring best practices for organizing time.</p><p>The base unit of mitime is mi ( <span class=michar>ᚃ</span>
 ), a magic number that only has meaning to the person using it. Choosing 4 as the initial standard was logical for many reasons. It is consistent with our cultural tendency to think of time in quarters, and allows us to use quarters all the way down. Its consistency and uniformity made it the most logical starting point, so that became the standard.</p><p>Mi facilitates a minimal structure that can be easily reconfigured and still be easily understandable. It chunks up the day into more natural units that are uniform and can thus be reorganized easily.</p><p>Some of the more immediate implications of mitime:</p><ul>
 <li>Whereas standard time focuses more on specific points in time, <strong>mitime is less precise and focuses on uniform chunks of time remaining in a day.</strong></li><li>Whereas standard time tells you what time of day it is, <strong>mitime tells you where you are in your day.</strong></li><li>Whereas standard time is often focused on what has occurred in the past, <strong>mitime is only concerned with available time.</strong></li><li>Because mitime is only concerned with available time, <strong>mitime counts down.</strong></li><li>If you planned your day according to the mi structure, knowing the <strong>mitime also makes a more intuitive connection between where you are in your day and where you are in your schedule.</strong> You will immediately have a sense of how well you are progressing against your goals.</li></ul></div></article></main><aside>

@@ -1,6 +1,7 @@
 ---
 title: "Time Pattern: Task Dovetailing"
 summary: "schedule tasks along complimentary aspects for efficiency, flexibility"
+subhead: "schedule tasks along complimentary aspects for efficiency, flexibility"
 date: 2022-03-20  
 ---
 

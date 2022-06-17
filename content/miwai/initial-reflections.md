@@ -1,6 +1,7 @@
 ---
 title: Planning Midai
 summary: Initial explorations of mitime
+subhead: Initial explorations of mitime
 date: 2022-03-24  
 ---
 
