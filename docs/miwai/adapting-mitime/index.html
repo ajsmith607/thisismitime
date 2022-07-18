@@ -1,7 +1,7 @@
 <!doctype html><html lang=en-us>
 <head>
 <meta charset=utf-8>
-<title>mikei</title><meta name=viewport content="width=device-width,initial-scale=1">
+<title>adapting to mitime</title><meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=”robots” content="index, follow">
 <meta name=msvalidate.01 content>
@@ -23,20 +23,18 @@ mitime is <span id=mitime></span>
 (<span id=standardtime></span> local time)
 </p><script defer>setInterval('getDisplayMitime("#mitime", "#standardtime", 4, 4, 4, 6)',1e3)</script>
 </div><div class=curve><svg viewBox="0 0 1440 144" xmlns="http://www.w3.org/2000/svg"><path d="m1440 0-80 11.981c-80 12.206-240 35.83-4e2 53.999-160 17.831-320 30.206-480 30.037-160 .16875-320-12.206-4e2-18L0 71.9984v71.998h80 4e2 480 4e2 80z"/></svg>
-</div></header><main id=mikei class=single>
+</div></header><main class=single>
 <div class=subhead>
-the essential reference
+structure time more naturally with mitime
 </div><article>
-<h1>mikei</h1><div class=meta>Last Update:
-<time datetime="Friday 17 Jun 2022" class=text-muted>
-Friday 17 Jun 2022
+<h1>adapting to mitime</h1><div class=meta>Last Update:
+<time datetime="Monday 18 Jul 2022" class=text-muted>
+Monday 18 Jul 2022
 </time>
 </div><div class=content>
-<p><strong>Mitime</strong> (pronounced &ldquo;my time&rdquo;) is a minimal metastructure mapped over standard time that counts down available time in a day.</p><p>Mitime is represented by the following format:</p><p><em>M.H.N</em></p><p>Where:</p><ul>
-<li><em>M</em> is the <strong>mi</strong> (<span class=michar>ᚃ</span>
-), a magic number that represents the largest subdivision of the day.</li><li><em>H</em> is the <em>mihour</em>. Like standard hours, mihours are 60 standard minutes in length, facilitating coordination with standard time. Mihours are numbered relative to their containing mi.</li><li><em>N</em> is the <em>miminute</em>. Miminutes are numbered relative to their containing mihour.</li></ul><p>Because mitime counts down, all numbers are reversed chronologically.</p><p>Standard time outside of mitime is unavailable time and is not tracked. This is represented as zero mitime:</p><p><em>0.0.0</em></p><p><em>Mitimezones</em> describe the structure of mitime, and how mitime maps to standard time. Therefore, a completely explicit mitime reference includes its mitimezone in the following format starting with the basic mitime format already discussed above:</p><p><em>M.H.N <span class=michar>ᚃ</span>
-MC.HC.NC.S</em></p><p>Where additionally:</p><ul>
-<li><em>MC</em> is the mi count, or the number of mis in a day.</li><li><em>HC</em> is the mihour count, the number of mihours in a mi.</li><li><em>NC</em> is the miminute count, the number of miminutes in a mihour.</li><li><em>S</em> is the <em>mistart</em>, the standard hour of the day when mitime begins. Mistart is based on a 24 hour clock, like hours in military time.</li></ul><p>The mitimezone <strong>4.4.4.6</strong> is the default reference mitimezone used throughout and is called <em>Standard Mitime</em>, abbreviated <em>SM</em>. Standard Mitime is the most generalized structure and reflects a number of existing cultural expectations about the structure of time, such as 16 waking hours and the tendency to divide time by quarters, along with the concept of the &ldquo;business day.&rdquo;</p><p>While Standard Mitime will fit many people, it is expected that people will configure their mitimezone to their unique needs. Mitimezones allow for cross-compatible variations over time, so experimentation is less expensive.</p><p>Because mitime counts down, the mitimezone mirrors the first unit of mitime in a day, and the last unit of mitime before 0.0.0 is 1.1.1 for all mitimezones.</p><p>Because mitime is compatible with standard time, standard time is always available as a fallback time specifier alongside mitime when higher precision is needed.</p></div></article></main><aside>
+<p>I have found that adjusting to mitime was extremely easy, as very quickly it became clear that mitime is a much more natural and intuitive way to structure and measure time.</p><p>Standard Mitime leverages the natural human ability to accurately judge halves, as well as the cultural norm of dividing time in quarters. Building on this, recognize the following facts about the structure of Standard Mitime:</p><blockquote>
+<p>the mid-point of midai reflects standard time:</p><p>2sm = 2pm</p></blockquote><p>2sm is short for 2.4.4 sm, just as 2pm is short for 2:00 pm.</p><blockquote>
+<p>all other mi boundaries fall on either 6&rsquo;s or 10&rsquo;s in standard time:</p><p>4sm = 6am</p><p>3sm = 10am</p><p>2sm = 2pm</p><p>1sm = 6pm</p><p>0sm = 10pm</p></blockquote><p>Obviously, each mi represents a quarter of your productive day, which I call <em>midai</em>. Then, within each mi of Standard Mitime, mihours are equivalent to normal hours, and each hour is divided into quarters hours, if needed, so the effort to translate to and from mitime is minimal.</p><p>In a matter of days, this structure became second nature, and instead of thinking about <em>what time it is</em> in terms of standard time-telling, I instead became increasingly aware of <em>where I am in midai</em>. Mitime is a constant reminder of the value of time and helps sustain a healthy sense of urgency. In mitime, wasted time is painfully apparent.</p><p>Knowing the time precisely is obviously also very useful in many cases, most obviously, when keeping appointments. But in terms of accomplishing daily goals, knowing the precise time by itself gives little useful information.</p><p>Mitime provides a more natural time structure that immediately communicates how effectively time is being used. Its minimalistic approach excludes unnecessary precision for easier understanding and application.</p></div></article></main><aside>
 <div>
 <div>
 <h3>LATEST POSTS</h3></div><div>

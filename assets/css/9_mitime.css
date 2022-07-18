@@ -9,7 +9,7 @@ light gray: #f3f4f5
 
 :root {
     --background-color: #058aff;
-    --background-color2: #ffad2b;
+    --background-color2: #058aff;
     --color: #ffffff;
     --active-link-color: #ffad2b;
     --visited-link-color: #ba934c;
@@ -18,7 +18,6 @@ light gray: #f3f4f5
     --down-color: black;
     --align-wmi: 8.25rem;
 }
-
 
 html{ background-color: var(--color); }
 .homelink, .meta, aside, footer .more-link { display: none; }
@@ -70,7 +69,7 @@ main .subhead {
     color: var(--active-link-color);
 }
 
-h1, h2, article.summary .content { text-transform: lowercase; }
+h1, h2, h3, article.summary .content { text-transform: lowercase; }
 
 div.curve {
     width: 100%;
@@ -93,6 +92,7 @@ main svg {
 }
 main figcaption { text-align: center; } 
 
+blockquote { color: var(--border-color); }
 
 table.miplanner { border: 2px solid var(--background-color2); }
 table.miplanner .mi {
