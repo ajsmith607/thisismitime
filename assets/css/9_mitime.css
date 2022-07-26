@@ -94,7 +94,7 @@ main figcaption { text-align: center; }
 
 blockquote { color: var(--border-color); }
 
-table.miplanner { border: 2px solid var(--background-color2); }
+table.miplanner { border: 2px solid var(--border-color); }
 table.miplanner .mi {
     width: 25%;
     vertical-align: top;
@@ -106,7 +106,7 @@ table.miplanner td, table.miplanner th {
 }
 table.miplanner td { 
     padding-left: var(--line-height);
-    border-bottom: 1px dashed var(--background-color2); 
+    border-bottom: 1px dashed var(--border-color); 
 }
 
 
