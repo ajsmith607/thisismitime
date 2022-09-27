@@ -24,4 +24,4 @@ A *miclock*, such as the real-time version on the home page, is a quick visualiz
 <figcaption>miclock during 3.2.4 sm</figcaption>
 </figure> 
 
-A visualization like this will likely be used in a different way from a digital representation of mitime, however, to make the reading of the miclock more intuitive, remember that mitime is a count of time remaining in a day, so translation becomes easier if you count outside in, counterclockwise. 
+A visualization like this will likely be used in a different way from a digital representation of mitime, however, to make the reading of the miclock more intuitive, remember that mitime is a count of time remaining in a day, so translation becomes easier if you count outside in, counterclockwise. Those familiar with reading compass bearings will notice the similarity in approach to reading the miclock.
