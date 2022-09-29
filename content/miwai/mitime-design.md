@@ -1,6 +1,6 @@
 ---
 title: "the design of mitime"
-summary: "mitime is"
+summary: "removing unnecessary precision simplifies mitime for more efficient understanding and application"
 subhead: "structure time more naturally with mitime"
 date: 2022-07-18
 ---
