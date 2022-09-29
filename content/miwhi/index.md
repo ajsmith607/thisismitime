@@ -7,7 +7,7 @@ weight: 1
 mainid: "miwhi"
 ---
 
-Recently, when I began working full-time for myself, I suddenly had much more direct control over much more of my time. I now had both the opportunity—and the responsibility—to figure out how to organize my time for optimal productivity.
+When I began working full-time for myself, I suddenly had much more direct control over much more of my time. I now had both the opportunity—and the responsibility—to figure out how to organize my time for optimal productivity.
 
 Relying on my project management background, I began specifying my goals and their scope, breaking them into milestones and scheduling time for them.
 
