@@ -33,5 +33,5 @@ In a matter of days, this structure became second nature, as I began to associat
 
 Knowing the time precisely is obviously also very useful in many cases, most obviously, when keeping appointments. But in terms of accomplishing daily goals, knowing the precise time by itself gives little useful information. 
 
-Mitime provides a more natural time structure that immediately communicates how effectively time is being used. Its minimalistic approach excludes unnecessary precision for easier understanding and application. The structure of mitime supports effective prioritization, overall efficiency, as well as the ability to quickly adapt to changing conditions.
+Mitime provides a more natural time structure that immediately communicates how effectively time is being used. Its minimalistic approach removes unnecessary precision for easier understanding and application. The structure of mitime supports effective prioritization, overall efficiency, as well as the ability to quickly adapt to changing conditions.
  
