@@ -27,7 +27,7 @@ Standard Mitime leverages the natural human ability to accurately judge halves, 
 > 
 > 0sm = 10pm
 
-Obviously, each mi represents a quarter of your productive day, which I call *midai*. Then, within each mi of Standard Mitime, mihours are equivalent to normal hours, and each hour is divided into quarters hours, if needed, so the effort to translate to and from mitime is minimal. 
+Obviously, each standard mi represents a quarter of your productive day, which I call *midai*. Then, within each mi of Standard Mitime, mihours are equivalent to normal hours, and each hour is divided into quarters hours, if needed, so the effort to translate to and from mitime is minimal. 
 
 In a matter of days, this structure became second nature, as I began to associate the times listed above with their corresponding mi, and I conceptually shifted from thinking about *what time it is* in terms of standard time-telling, to an awareness of *where I am in midai*. For example, when 10AM arrives, I know that I am already a quarter of the way through my day, and I know immediately if I am on schedule, or need to adjust. Mitime is a constant reminder of the value of time and helps sustain a healthy sense of urgency. In mitime, wasted time is painfully apparent.
 
