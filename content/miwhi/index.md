@@ -11,7 +11,7 @@ When I began working full-time for myself, I suddenly had much more direct contr
 
 Relying on my project management background, I began specifying my goals and their scope, breaking them into milestones and scheduling time for them.
 
-While this was all necessary, I still had not thought specifically about how to organize my day most effectively, and this was the essence of the challenge posed by having more control over my time. I was no longer as tightly tied to the structure of the normal business day, and with fewer constraints, (the most obvious being a commute), the natural question to ask was. at meta level, how do I structure my available time most effectively?  
+While this was all necessary, I still had not thought specifically about how to organize my day most effectively, and this was the essence of the challenge posed by having more control over my time. I was no longer as tightly tied to the structure of the normal business day, and with fewer constraints, (the most obvious being a commute), the natural question to ask was, at meta level, how do I structure my available time most effectively?  
 
 I quickly realized that our standard way of telling time does not directly support structuring that time well. Standard time is highly precise, generalized, uniform, widely used and as a result, widely applicable. Standard time excels at tasks such as record keeping (particularly financial), making itineraries and scheduling doctors appointments, etc. But the high precision and uniformity of standard time actually makes it harder to think about structuring time effectively.
  
