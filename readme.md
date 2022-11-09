@@ -2,7 +2,7 @@
 
 A [Hugo](https://gohugo.io/) based site hosted on Github Pages and available at https://thisismitime.com .
 
-![thisismitime.com screenshot](/assets/img/home-desktop.png)
+![thisismitime.com screenshot](/assets/img/home-desktop-with-border.png)
 
 The site depends on:
 
