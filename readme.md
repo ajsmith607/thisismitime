@@ -1,8 +1,8 @@
-![mitime logo](/assets/img/mitime-logo-opt.svg)
+![mitime logo](/assets/img/logo.png)
 
 A [Hugo](https://gohugo.io/) based site hosted on Github Pages and available at https://thisismitime.com .
 
-![ajsmith.co screenshot](/static/images/screenshot.png)
+![thisismitime.com screenshot](/assets/img/home-desktop.png)
 
 The site depends on:
 
