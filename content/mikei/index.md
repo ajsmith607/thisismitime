@@ -7,7 +7,7 @@ summary: "the essential reference"
 subhead: "the essential reference"
 ---
 
-**Mitime** (pronounced "my time") is a minimal metastructure mapped over standard time that counts down available time in a day. The name is derived from its description: (mi)nimal (ti)me (me)tastructure.
+**Mitime** (pronounced "my time") is a (mi)nimal (ti)me (me)tastructure mapped over standard time that counts down available time in a day.
 
 Mitime is represented by the following format:  
 
