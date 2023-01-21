@@ -11,4 +11,3 @@ The site depends on:
   - [miclock](https://github.com/ajs17/miclock), a Hugo module implementing an analog miclock for displaying mitime.
 
 
-  .
