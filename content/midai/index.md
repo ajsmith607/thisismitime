@@ -20,7 +20,7 @@ While this is useful for task planning, it perhaps excels even more at planning 
 A *miclock*, such as the real-time version on the home page, is a quick visualization of mitime in the form of a traditional analog clock. It matches our expectation of a clock that moves clock-wise, but remember that mitime **counts down:** 
 
 <figure class="image"> 
-{{< inline-svg "img/miclock-allnums.svg" >}}
+{{< inline-svg "miclock-allnums.svg" >}}
 <figcaption>miclock during 3.2.4 sm</figcaption>
 </figure> 
 
