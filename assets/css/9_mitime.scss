@@ -149,12 +149,12 @@ main .subhead {
     color: $accent-color2;
 }
 
-main figure {
+main figure, div#console {
     padding: 1em;
     text-align: center;
 }
 
-figure.mainanalogclock svg {
+div#console svg {
     display: block;
     background-color: white;
     padding: 3px;  

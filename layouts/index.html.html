@@ -5,7 +5,7 @@
         {{ partial "head-links" . }}
         {{ partial "head-assetjs" . }}
 
-        {{ $css := resources.GetMatch "css/5_miclock.scss" | resources.ExecuteAsTemplate "css/miclock.scss" . | toCSS }}
+        {{ $css := resources.GetMatch "css/5_mitimer.scss" | resources.ExecuteAsTemplate "css/mitimer.scss" . | toCSS }}
         {{ if hugo.IsProduction }}
             {{ $css = $css | minify | fingerprint | resources.PostProcess }}
         {{ end }}
@@ -19,7 +19,7 @@
         margin: 0;
         background-color: #ffffff;   
         color : #058aff;
-        font: 75% Tahoma, Verdana, Segoe, sans-serif;
+        font: 100% Tahoma, Verdana, Segoe, sans-serif;
 	    line-height: 1.63rem;
       }
 
@@ -29,7 +29,7 @@
 
       main {
         background-color: #ffffff;   
-        font-size: 1.63rem; 
+        font-size: 1.225rem; 
         line-height: 2rem;
         margin: 0 auto;
         padding-top: 6rem;
@@ -43,7 +43,7 @@
       }
 
       .grid-container {
-        margin: 0 auto;
+        margin: -1.225rem auto;
         width: 95%;
         align-items: center;
         display: grid;
@@ -53,10 +53,10 @@
       }
 
       nav {
-        margin-left: -3rem; 
+        margin-left: -7.335rem; 
         height: 100%; 
-        font-size: 2.63rem;
-        line-height: 3.26rem;
+        font-size: 1.9725rem;
+        line-height: 2.445rem;
         text-transform: lowercase;
         text-align: left;
       }
@@ -93,27 +93,28 @@
         -ms-interpolation-mode: bicubic
       }
   
-      svg#miclock {
+      svg#midial {
         width: 100%;
         max-width: 300px;
         height: auto; 
       }
 
-      #analogclock {
-        padding-left: 6rem;
+      div.grid-container figure#console {
+        padding-left: 9.6rem;
+        background: transparent;
       }
 
       #digitalclock, #standarddigital, #subhead {
-        padding-left: 1rem; 
+        padding-left: 4rem; 
         padding-right: 1rem;
         text-align: center;
-        font-size: 2.63rem;
-        line-height: 3.26rem;
+        font-size: 1.9725rem;
+        line-height: 2.445rem;
         text-transform: lowercase;
       }
 
       #standarddigital {
-        font-size: 1.63rem;
+        font-size: 1.225rem;
       }
       
       #mitime {
@@ -139,7 +140,7 @@
       }
 
       #logo svg {
-        padding-top: 2rem;
+        padding-top: 2.445rem;
         width: 100%;
         height: auto;
         fill: #058aff;
@@ -154,7 +155,7 @@
         height: auto; 
         fill: #058aff;
         display: block;
-        padding-top: -2rem; 
+        padding-top: -2.445rem; 
       }
 
       footer svg {
@@ -166,23 +167,21 @@
       }
 
       @media only screen and (max-width: 800px) {
-         html, body { font-size: 60%;}
-         #analogclock { padding-left: 0; max-width: 163px; }
-         main, #curve { padding-top: 1rem; }
-         nav, #analogclock, #logo, #digitalclock, #standarddigital, #subhead  { text-align: center ; margin: 0 1rem; }
-          .grid-container { grid-template-columns: 1fr; justify-items: center; } /* allows responsiveness of columns of uneven widths */
+         html, body { font-size: 80%;}
+         div.grid-container figure#console { padding-left: 1rem; }
+         #console svg { max-width: 163px; }
+         main, #curve { padding-top: 2.445rem; .5}
+         nav, #console, #logo, #digitalclock, #standarddigital, #subhead  { text-align: center ; margin: 0 1rem; }
+         #digitalclock { padding-left: 1rem; }
+         .grid-container { grid-template-columns: 1fr; justify-items: center; } /* allows responsiveness of columns of uneven widths */
       }
     </style>
   
   <body>
     <main id="home">
     <div class="grid-container">
-        <figure id="analogclock" class="grid-item">
-            {{ .Scratch.Set "svgpath" "img/miclock.svg" }}
-            {{ partial "inline-svg.html" . }}
-            <script defer>
-                setInterval('miclock("#miclock", "#mitime", "#standardtime", 4, 4, 4, 6)', 1000 );
-            </script>  
+        <figure id="console" class="grid-item">
+            <svg height: auto; width="100%" id="midial" viewbox="-1 -1 2 2"> </svg> 
         </figure>
         <div class="grid-item">
             {{ partial "mainmenu.html" . }}
@@ -197,7 +196,7 @@
             mitime is <span id="mitime"></span>
         </div> 
         <div id="standarddigital"> 
-            (local time is <span id="standardtime"></span>)
+            (local time is <span id="sttime"></span>)
         </div> 
     </div>
 
@@ -210,5 +209,9 @@
         </div> 
     </footer>
 
+    <script defer>
+        setInterval('mitimer("console", "midial", "", "", 4, 4, 4, 6, 0, 0)', 1000 );
+        setInterval('getDisplayMitime("mitime", "sttime", 4, 4, 4, 6)', 1000 );
+    </script>  
   </body>
 </html>

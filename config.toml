@@ -23,7 +23,10 @@ lastmod = [":fileModTime", ":default"] # auto populates lastmod date
   [[module.imports]]
     path = "github.com/ajs17/hugo-min-components"
   [[module.imports]]
-    path = "github.com/ajs17/miclock"
+    path = "github.com/ajs17/mitimer"
  
 [markup]
   _merge = "deep"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
