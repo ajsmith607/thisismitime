@@ -9,13 +9,14 @@ I have found that adjusting to mitime was extremely easy, as very quickly it bec
 
 Standard Mitime leverages the natural human ability to accurately judge halves, as well as the cultural norm of dividing time in quarters. Building on this, recognize the following facts about the structure of Standard Mitime:  
 
-> the mid-point of midai reflects standard time:
-> 
+The mid-point of midai reflects standard time:
+
 > 2sm = 2pm
 
 2sm is short for 2.4.4 sm, just as 2pm is short for 2:00 pm.
 
-> all other mi boundaries fall on either 6's or 10's in standard time:
+All other mi boundaries fall on either 6's or 10's in standard time:
+
 > 
 > 4sm = 6am
 > 
