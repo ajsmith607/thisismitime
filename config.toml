@@ -1,5 +1,4 @@
-#baseURL = "https://thisismitime.com/"
-baseURL = "https://ajsmith607.github.io/thisismitime/"
+baseURL = "https://thisismitime.com/"
 languageCode = "en-us"
 title = "this is mitime"
 publishDir = "docs" 
