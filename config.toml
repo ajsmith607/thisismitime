@@ -21,9 +21,9 @@ lastmod = [":fileModTime", ":default"] # auto populates lastmod date
 [module]
   _merge = "deep"
   [[module.imports]]
-    path = "github.com/ajs17/hugo-min-components"
+    path = "github.com/ajsmith607/undergo"
   [[module.imports]]
-    path = "github.com/ajs17/mitimer"
+    path = "github.com/ajsmith607/mitimer"
  
 [markup]
   _merge = "deep"
