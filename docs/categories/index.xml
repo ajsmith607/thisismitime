@@ -1,1 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on this is mitime</title><link>https://thisismitime.com/categories/</link><description>Recent content in Categories on this is mitime</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://thisismitime.com/categories/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on this is mitime</title>
+    <link>https://ajsmith607.github.io/thisismitime/categories/</link>
+    <description>Recent content in Categories on this is mitime</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://ajsmith607.github.io/thisismitime/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

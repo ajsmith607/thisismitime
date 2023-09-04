@@ -1,1 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://thisismitime.com/miwhi/</loc><lastmod>2022-10-18T13:51:59-04:00</lastmod></url><url><loc>https://thisismitime.com/mikei/</loc><lastmod>2023-01-20T14:53:57-05:00</lastmod></url><url><loc>https://thisismitime.com/midai/</loc><lastmod>2023-02-23T10:01:45-05:00</lastmod></url><url><loc>https://thisismitime.com/miwai/</loc><lastmod>2022-06-17T12:20:32-04:00</lastmod></url><url><loc>https://thisismitime.com/miwai/adapting-mitime/</loc><lastmod>2023-06-24T09:53:21-04:00</lastmod></url><url><loc>https://thisismitime.com/miwai/mitime-design/</loc><lastmod>2022-10-18T13:51:59-04:00</lastmod></url><url><loc>https://thisismitime.com/</loc><lastmod>2023-06-24T09:53:21-04:00</lastmod></url><url><loc>https://thisismitime.com/miwai/initial-reflections/</loc><lastmod>2022-10-18T13:51:59-04:00</lastmod></url><url><loc>https://thisismitime.com/miwai/staggered-task-pattern/</loc><lastmod>2022-06-17T12:20:32-04:00</lastmod></url><url><loc>https://thisismitime.com/miwai/time-is-a-diminishing-resource/</loc><lastmod>2022-06-17T12:20:32-04:00</lastmod></url><url><loc>https://thisismitime.com/categories/</loc></url><url><loc>https://thisismitime.com/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ajsmith607.github.io/thisismitime/miwhi/</loc>
+    <lastmod>2022-10-18T13:51:59-04:00</lastmod>
+  </url><url>
+    <loc>https://ajsmith607.github.io/thisismitime/mikei/</loc>
+    <lastmod>2023-01-20T14:53:57-05:00</lastmod>
+  </url><url>
+    <loc>https://ajsmith607.github.io/thisismitime/midai/</loc>
+    <lastmod>2023-02-23T10:01:45-05:00</lastmod>
+  </url><url>
+    <loc>https://ajsmith607.github.io/thisismitime/miwai/</loc>
+    <lastmod>2022-06-17T12:20:32-04:00</lastmod>
+  </url><url>
+    <loc>https://ajsmith607.github.io/thisismitime/miwai/adapting-mitime/</loc>
+    <lastmod>2023-06-24T09:53:21-04:00</lastmod>
+  </url><url>
+    <loc>https://ajsmith607.github.io/thisismitime/miwai/mitime-design/</loc>
+    <lastmod>2022-10-18T13:51:59-04:00</lastmod>
+  </url><url>
+    <loc>https://ajsmith607.github.io/thisismitime/</loc>
+    <lastmod>2023-06-24T09:53:21-04:00</lastmod>
+  </url><url>
+    <loc>https://ajsmith607.github.io/thisismitime/miwai/initial-reflections/</loc>
+    <lastmod>2022-10-18T13:51:59-04:00</lastmod>
+  </url><url>
+    <loc>https://ajsmith607.github.io/thisismitime/miwai/staggered-task-pattern/</loc>
+    <lastmod>2022-06-17T12:20:32-04:00</lastmod>
+  </url><url>
+    <loc>https://ajsmith607.github.io/thisismitime/miwai/time-is-a-diminishing-resource/</loc>
+    <lastmod>2022-06-17T12:20:32-04:00</lastmod>
+  </url><url>
+    <loc>https://ajsmith607.github.io/thisismitime/categories/</loc>
+  </url><url>
+    <loc>https://ajsmith607.github.io/thisismitime/tags/</loc>
+  </url>
+</urlset>
