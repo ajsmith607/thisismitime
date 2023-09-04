@@ -1,6 +1,4 @@
-github.com/ajs17/hugo-min-components v0.0.0-20220122015929-2e9be9d959a6 h1:YW2xl17nTTH4vacJiJldf7i5d/MV1r10tCxX8YUTVHk=
-github.com/ajs17/hugo-min-components v0.0.0-20220122015929-2e9be9d959a6/go.mod h1:x/naIHXP0ZE1R4lKOVOlWjOoDyFndSkx/2OsUqR3wDk=
-github.com/ajs17/hugo-min-components v0.0.0-20230214183232-3ee40ba74422 h1:wOHYEOh/NII32IsQH8LdOpZ69RjMUqcx8rwdOT+QZwI=
-github.com/ajs17/hugo-min-components v0.0.0-20230214183232-3ee40ba74422/go.mod h1:x/naIHXP0ZE1R4lKOVOlWjOoDyFndSkx/2OsUqR3wDk=
-github.com/ajs17/miclock v0.0.0-20220120173032-b7f1639dd2b5 h1:0MYIBcUEkvB5f7JL0XX8iw08uKVC9/CL/30PLBoE6y4=
-github.com/ajs17/miclock v0.0.0-20220120173032-b7f1639dd2b5/go.mod h1:523xPO2pznK8Pf1l0mbou9h1LbgqxF1UC/itpPwBiTk=
+github.com/ajsmith607/mitimer v0.0.0-20230904185648-805b8fe024cc h1:earWWgZttFDTb+de68ntn6kmJA0pNAqDxKYzuPWQGlA=
+github.com/ajsmith607/mitimer v0.0.0-20230904185648-805b8fe024cc/go.mod h1:w3so7BsPTHwe7uKcAoFVZX1XsGhjeZh944sO+8lJSsI=
+github.com/ajsmith607/undergo v0.0.0-20230904182456-01d93fd19b7c h1:uF5+1xbYSNio4oKV+R8A1Qzvcu23+jOjhjdV5Ic4V8U=
+github.com/ajsmith607/undergo v0.0.0-20230904182456-01d93fd19b7c/go.mod h1:w9cruL6/+FYrfPr200HKgrlrHgy12lQo8D3sVErOUrg=
