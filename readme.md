@@ -6,8 +6,8 @@ A [Hugo](https://gohugo.io/) based site hosted on Github Pages and available at 
 
 The site depends on:
 
-  - [Hugo Minimal Components](https://github.com/ajs17/hugo-min-components), a base theme.
+  - [undergo](https://github.com/ajsmith607/undergo), a base theme.
   
-  - [mitimer](https://github.com/ajs17/mitimer), a Hugo module implementing an analog mitimer for displaying mitime.
+  - [mitimer](https://github.com/ajsmith607/mitimer), a Hugo module implementing an analog mitimer for displaying mitime.
 
 
