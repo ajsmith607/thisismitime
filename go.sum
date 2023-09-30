@@ -1,4 +1,8 @@
 github.com/ajsmith607/mitimer v0.0.0-20230904185648-805b8fe024cc h1:earWWgZttFDTb+de68ntn6kmJA0pNAqDxKYzuPWQGlA=
 github.com/ajsmith607/mitimer v0.0.0-20230904185648-805b8fe024cc/go.mod h1:w3so7BsPTHwe7uKcAoFVZX1XsGhjeZh944sO+8lJSsI=
+github.com/ajsmith607/mitimer v0.0.0-20230904223307-87852914e89e h1:SzMnc9FIz+bZA1u+nwOryaU9U6NKH/c4UhfxPPULE9I=
+github.com/ajsmith607/mitimer v0.0.0-20230904223307-87852914e89e/go.mod h1:w3so7BsPTHwe7uKcAoFVZX1XsGhjeZh944sO+8lJSsI=
 github.com/ajsmith607/undergo v0.0.0-20230904182456-01d93fd19b7c h1:uF5+1xbYSNio4oKV+R8A1Qzvcu23+jOjhjdV5Ic4V8U=
 github.com/ajsmith607/undergo v0.0.0-20230904182456-01d93fd19b7c/go.mod h1:w9cruL6/+FYrfPr200HKgrlrHgy12lQo8D3sVErOUrg=
+github.com/ajsmith607/undergo v0.0.0-20230930094647-8971882017c0 h1:I7kTeFqDVoDdhBAc+1XickrHRZ8PbamZ4BxlDx7w1mg=
+github.com/ajsmith607/undergo v0.0.0-20230930094647-8971882017c0/go.mod h1:w9cruL6/+FYrfPr200HKgrlrHgy12lQo8D3sVErOUrg=
