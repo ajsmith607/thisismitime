@@ -36,7 +36,7 @@ Where additionally:
 - *NC* is the miminute count, the number of miminutes in a mihour.
 - *S* is the *mistart*, the standard hour  when mitime begins. Mistart is based on a 24 hour clock, like hours in military time.  
 
-The range of productive time that begins at mistart and ends at zero mitime is called *midai* (pronounced "my day"). Because mitime counts down, mitimezones mirror mitime at mistart, and the last unit of mitime before 0.0.0 is 1.1.1 for all mitimezones. 
+The range of available time that begins at mistart and ends at zero mitime is called *midai* (pronounced "my day"). Because mitime counts down, mitimezones mirror mitime at mistart, and the last unit of mitime before 0.0.0 is 1.1.1 for all mitimezones. 
 
 The mitimezone **4.4.4.6** is the default reference mitimezone used throughout and is called *Standard Mitime*, abbreviated *SM*. Standard Mitime is the most generalized structure and reflects a number of existing cultural expectations about the structure of time, such as 16 waking hours and the tendency to divide time by quarters, along with the concept of the "business day." 
 
