@@ -17,10 +17,3 @@ Immediate implications are that knowing the mitime doesn't tell you the time of 
 
 While this is useful for task planning, it perhaps excels even more at planning the structure of your day. Mitime's emphasis on available time encourages you to think about whether you are spending that finite and precious resource on the things you value most. Mitime encourages you to focus and prioritize effort to further your life mission, to achieve goals, to adopt new habits, or to break bad ones. 
 
-A *mitimer*, such as the real-time version on the home page, is a quick visualization of mitime in the form of a traditional analog timer. Because mitime counts down, the mitimer runs counter-clockwise. 
-
-{{< mitimer "1" "" "1" "" "12" "00" >}}
-
-A visualization like this will likely be used in a different way from a digital representation of mitime, however, to make the reading of the mitimer more intuitive, remember that mitime is a count of time remaining in a day, so translation becomes easier if you count outside in, counterclockwise. 
-
-Those familiar with reading compass bearings will notice the similarity in approach to reading the mitimer. Whereas standard time specifies points in time, mitime represents uniform units of time at different scales.

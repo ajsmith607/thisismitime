@@ -24,7 +24,7 @@ Standard time outside of mitime is unavailable time and is not tracked. This is 
 
 *0.0.0*
 
-Zero mitime can be thought of as daily recurring negative leap time within the structure of mitime.
+Zero mitime represents daily recurring negative leap time within the structure of mitime.
 
 *Mitimezones* describe the structure of mitime, and how mitime maps to standard time. Therefore, a completely explicit mitime reference will include its mitimezone in the following format starting with the basic mitime format already discussed above:
 
@@ -44,4 +44,7 @@ While Standard Mitime will fit many people, it is expected that people will conf
 
 Because mitime is compatible with standard time, standard time is always available as a fallback time specifier alongside mitime when higher precision is needed.
 
+A *mitimer* can be used to visualize mitime in the form of a traditional analog timer that counts down mitime, running counter-clockwise around its midial.   
+
+{{< mitimer "1" "" "1" "" "12" "00" >}}
 
