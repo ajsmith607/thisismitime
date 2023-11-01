@@ -68,7 +68,7 @@ MC.HC.NC.S</em></p>
 <li><em>NC</em> is the miminute count, the number of miminutes in a mihour.</li>
 <li><em>S</em> is the <em>mistart</em>, the standard hour when mitime begins. Mistart is based on a 24 hour clock, like hours in military time.</li>
 </ul>
-<p>The range of available time that begins at mistart and ends at zero mitime is called <em>midai</em> (pronounced &ldquo;my day&rdquo;). Because mitime counts down, mitimezones mirror mitime at mistart, and the last unit of mitime before 0.0.0 is 1.1.1 for all mitimezones.</p>
+<p>The mitime range that begins at mistart and ends at zero mitime is called <em>midai</em> (pronounced &ldquo;my day&rdquo;). Because mitime counts down, mitimezones mirror mitime at mistart, and the last unit of mitime before 0.0.0 is 1.1.1 for all mitimezones.</p>
 <p>The mitimezone <strong>4.4.4.6</strong> is the default reference mitimezone used throughout and is called <em>Standard Mitime</em>, abbreviated <em>SM</em>. Standard Mitime is the most generalized structure and reflects a number of existing cultural expectations about the structure of time, such as 16 waking hours and the tendency to divide time by quarters, along with the concept of the &ldquo;business day.&rdquo;</p>
 <p>While Standard Mitime will fit many people, it is expected that people will configure their mitimezone to their unique needs. Note too that because mistart can be any hour of the day, and the remaining structure is abstract, mitime can cross standard day boundaries. Mitimezones allow for cross-compatible variations over time, so experimentation is less expensive.</p>
 <p>Because mitime is compatible with standard time, standard time is always available as a fallback time specifier alongside mitime when higher precision is needed.</p>
