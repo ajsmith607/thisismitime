@@ -11,13 +11,15 @@ When I began working full-time for myself, I suddenly had much more direct contr
 
 Relying on my project management background, I began specifying my goals and their scope, breaking them into milestones and scheduling time for them.
 
-While this was all necessary, I still had not thought specifically about how to organize my day most effectively, and this was the essence of the challenge posed by having more control over my time. I was no longer as tightly tied to the structure of the normal business day, and with fewer constraints, (the most obvious being a commute), the natural question to ask was, at meta level, how do I structure my available time most effectively?  
+While this was all necessary, I still had not thought specifically about how to organize my day most effectively, and this was the essence of the challenge posed by having more control over my time. I was no longer as tightly tied to the structure of the normal business day, and with fewer constraints, (the most obvious being a commute), the natural question to ask was, at a meta level, how do I structure my available time most effectively?  
 
 I quickly realized that our standard way of telling time does not directly support structuring that time well. Standard time is highly precise, generalized, uniform, widely used and as a result, widely applicable. Standard time excels at tasks such as record keeping (particularly financial), making itineraries, scheduling appointments, etc. But the high precision and uniformity of standard time actually makes it harder to think about structuring time effectively.
  
 I further reasoned that the typical structure of our time is so fundamentally cultural in nature (such as a nine-to-five business day, three meals a day at specific times, etc.) that I needed to deconstruct our ideas about time itself to allow patterns and best practices to emerge more clearly. 
 
-I needed a way to structure time that was simple to use and compatible with standard time. And unlike standard time, which is often focused on the past, I was only concerned with available time, time directly under my control that was potentially productive time.
+I needed a way to structure time that was simple to use and compatible with standard time. And unlike standard time, which is often focused on the past, I was only concerned with available time, time directly under my control that was potentially productive time. 
+
+But I still didn't know exactly what that time structure might look like, so I needed to develop a system for creating different time structures that I could then experiment with to learn the optimal solution. I needed a standard way of specifying different time structures so that as I progressed through them, I could easily make the transition, while also retaining a consistent basis for making an apples-to-apples comparison between these different structures.
 
 So, I created mitime as an abstract meta-structure that would give me a consistent way of exploring best practices for structuring time. 
 
