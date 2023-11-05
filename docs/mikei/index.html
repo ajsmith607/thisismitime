@@ -69,19 +69,20 @@ MC.HC.NC.S</em></p>
 <li><em>S</em> is the <em>mistart</em>, the standard hour when mitime begins. Mistart is based on a 24 hour clock, like hours in military time.</li>
 </ul>
 <p>The mitime range that begins at mistart and ends at zero mitime is called <em>midai</em> (pronounced &ldquo;my day&rdquo;). Because mitime counts down, mitimezones mirror mitime at mistart, and the last unit of mitime before 0.0.0 is 1.1.1 for all mitimezones.</p>
-<p>The mitimezone <strong>4.4.4.6</strong> is the default reference mitimezone used throughout and is called <em>Standard Mitime</em>, abbreviated <em>SM</em>. Standard Mitime is the most generalized structure and reflects a number of existing cultural expectations about the structure of time, such as 16 waking hours and the tendency to divide time by quarters, along with the concept of the &ldquo;business day.&rdquo;</p>
-<p>While Standard Mitime will fit many people, it is expected that people will configure their mitimezone to their unique needs. Note too that because mistart can be any hour of the day, and the remaining structure is abstract, mitime can cross standard day boundaries. Mitimezones allow for cross-compatible variations over time, so experimentation is less expensive.</p>
-<p>Because mitime is compatible with standard time, standard time is always available as a fallback time specifier alongside mitime when higher precision is needed.</p>
-<p>A <em>mitimer</em> can be used to visualize mitime in the form of a traditional analog timer that counts down mitime, running counter-clockwise around its midial.</p>
-<figure id=miconsole-c3a885a982-container class="image gallery-item" style="max-width:300px;margin:3em auto">
-<article id=miconsole-c3a885a982 style=max-width:300px>
-</article><figcaption><span id=mitime-c3a885a982-container>
-<span id=mitime-c3a885a982></span>
+<p>The mitimezone <strong>4.4.4.6</strong> is the default reference mitimezone, called <em>Standard Mitime</em> and abbreviated <em>SM</em>. Standard Mitime is the most generalized structure and reflects a number of existing cultural expectations about the structure of time, such as 16 waking hours and the tendency to divide time by quarters, along with the concept of the &ldquo;business day.&rdquo;</p>
+<p>While Standard Mitime will meet the needs of many, anyone can configure their mitimezone to their unique needs. Mitimezones allow for cross-compatible variations over time, so experimentation is less expensive.</p>
+<p>(Note too that because mistart can be any hour of the day, and the remaining structure is abstract, mitime can cross standard day boundaries.)</p>
+<p>Because mitime is compatible with standard time, standard time is always available as a fallback time specifier alongside mitime when higher precision is genuinely needed.</p>
+<p>A <em>mitimer</em> displays mitime in the form of a traditional analog timer that counts down mitime, running counter-clockwise around its midial.</p>
+<figure id=miconsole-3e40497dc2-container class="image gallery-item" style="max-width:300px;margin:3em auto">
+<article id=miconsole-3e40497dc2 style=max-width:300px>
+</article><figcaption><span id=mitime-3e40497dc2-container>
+<span id=mitime-3e40497dc2></span>
 </span>
-<br><span id=sttime-c3a885a982-container>
-<span id=sttime-c3a885a982></span>
+<br><span id=sttime-3e40497dc2-container>
+<span id=sttime-3e40497dc2></span>
 </span>
-<br></figcaption></figure><script>mitimer('miconsole-c3a885a982','midial-c3a885a982','mitime-c3a885a982','sttime-c3a885a982',4,4,4,6,0,1,'mhn',12,0)</script>
+<br></figcaption></figure><script>mitimer('miconsole-3e40497dc2','midial-3e40497dc2','mitime-3e40497dc2','sttime-3e40497dc2',4,4,4,6,0,1,'mhn',12,0)</script>
 </div>
 </article>
 </main>
@@ -124,7 +125,7 @@ MC.HC.NC.S</em></p>
 <article class=summary>
 <h3><a href=/midai/>midai</a></h3>
 <div class=meta>
-<time>Thursday 23 Feb 2023</time>
+<time>Wednesday 01 Nov 2023</time>
 </div>
 <div class=content>making the most of mitime<a href=/midai/ class=more-link>read more</a>
 </div>

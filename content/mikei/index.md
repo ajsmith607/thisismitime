@@ -38,13 +38,15 @@ Where additionally:
 
 The mitime range that begins at mistart and ends at zero mitime is called *midai* (pronounced "my day"). Because mitime counts down, mitimezones mirror mitime at mistart, and the last unit of mitime before 0.0.0 is 1.1.1 for all mitimezones. 
 
-The mitimezone **4.4.4.6** is the default reference mitimezone used throughout and is called *Standard Mitime*, abbreviated *SM*. Standard Mitime is the most generalized structure and reflects a number of existing cultural expectations about the structure of time, such as 16 waking hours and the tendency to divide time by quarters, along with the concept of the "business day." 
+The mitimezone **4.4.4.6** is the default reference mitimezone, called *Standard Mitime* and abbreviated *SM*. Standard Mitime is the most generalized structure and reflects a number of existing cultural expectations about the structure of time, such as 16 waking hours and the tendency to divide time by quarters, along with the concept of the "business day." 
 
-While Standard Mitime will fit many people, it is expected that people will configure their mitimezone to their unique needs. Note too that because mistart can be any hour of the day, and the remaining structure is abstract, mitime can cross standard day boundaries. Mitimezones allow for cross-compatible variations over time, so experimentation is less expensive.
+While Standard Mitime will meet the needs of many, anyone can configure their mitimezone to their unique needs. Mitimezones allow for cross-compatible variations over time, so experimentation is less expensive.
 
-Because mitime is compatible with standard time, standard time is always available as a fallback time specifier alongside mitime when higher precision is needed.
+(Note too that because mistart can be any hour of the day, and the remaining structure is abstract, mitime can cross standard day boundaries.)
 
-A *mitimer* can be used to visualize mitime in the form of a traditional analog timer that counts down mitime, running counter-clockwise around its midial.   
+Because mitime is compatible with standard time, standard time is always available as a fallback time specifier alongside mitime when higher precision is genuinely needed.
+
+A *mitimer* displays mitime in the form of a traditional analog timer that counts down mitime, running counter-clockwise around its midial.   
 
 {{< mitimer "1" "" "1" "" "12" "00" >}}
 
