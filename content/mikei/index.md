@@ -61,19 +61,20 @@ All other Standard mi boundaries fall on either 6's or 10's in standard time:
 
 Notice too that in Standard Mitime, at 8am (4.2sm), an eighth of the day–half of the first mi, or two mihours, a semi–has passed in midai. Likewise at 8pm (1.2sm), an eighth of the day–half of the last mi, or two mihours, a semi–remains in midai.
 
-Whereas standard time progresses into the future, mitime's structure only counts down available time in midai. Knowing the standard time is good for keeping appointments, but mitime is better at providing an intuitive sense of where one is relative to the total available time in a day, and how much time is left in midai, which provides a natural structure for determining if one is on schedule or falling behind. 
+Instead of asking "what time is it?" one might instead ask "what is mitime?" At the midpoint of standard midai, one might respond with "2sm" which is short for 2.4.4sm in the same way that 2pm is short for 2:00pm. One might also give a more general answer, such as "I am in mi 2" ("mi 2" is pronounced "my two").  
 
-Whereas standard time defines points in time, mitime's structure defines blocks of time. When used as a planning tool, the general, uniform structure of mitime optimizes interchangeability of blocks of time, so if needed, remaining mitime can be rearranged simply and with minimal disruption.
+A *mitimer* displays mitime in the form of a traditional analog timer that counts down mitime, with **midials** that run counter-clockwise. The mitimer is read starting from the largest areas to the smallest, starting from the outside, moving inward.
 
-So, instead of asking "what time is it?" one might instead ask "what is mitime?" At the midpoint of standard midai, one might respond with "2sm" which is short for 2.4.4sm in the same way that 2pm is short for 2:00pm. One might also give a more general answer, such as "I am in mi 2" ("mi 2" is pronounced "my two").  
+{{< mitimer "1" "" "1" "" "12" "00" >}}
 
 While Standard Mitime will meet the needs of many, anyone can configure their mitimezone to their unique needs. Mitimezones allow for cross-compatible variations over time, so experimentation is less expensive.
 
 (Note too that because mistart can be any hour of the day, and the remaining structure is abstract, mitime can cross standard day boundaries.)
 
-Because mitime is compatible with standard time, standard time is always available as a fallback time specifier alongside mitime when higher precision is genuinely needed.
+Whereas standard time progresses into the future, mitime's structure only counts down available time in midai. Knowing the standard time is good for keeping appointments, but mitime is better at providing an intuitive sense of where one is relative to the total available time in a day, and how much time is left in midai, which provides a natural structure for determining if one is on schedule or falling behind. 
 
-A *mitimer* displays mitime in the form of a traditional analog timer that counts down mitime, with **midials** that run counter-clockwise. The mitimer is read starting from the largest areas to the smallest, starting from the outside, moving inward.
+And whereas standard time defines points in time, mitime's structure defines blocks of time. When used as a planning tool, the general, uniform structure of mitime optimizes interchangeability of blocks of time, so if needed, remaining mitime can be rearranged simply and with minimal disruption.
 
-{{< mitimer "1" "" "1" "" "12" "00" >}}
+Finally, because mitime is compatible with standard time, standard time is always available as a fallback time specifier alongside mitime when higher precision is genuinely needed.
+
 
