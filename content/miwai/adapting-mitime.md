@@ -28,7 +28,7 @@ All other mi boundaries fall on either 6's or 10's in standard time:
 > 
 > 0sm = 10pm
 
-Notice too that at 8am, an eighth of the day–half of the first mi, or two hours–has passed in midai. Likewise at 8pm, an eighth of the day–half of the last mi, or two hours–remains in midai.
+Notice too that at 8am, an eighth of the day–half of the first mi, or two mihours, a **semi**–has passed in midai. Likewise at 8pm, an eighth of the day–half of the last mi, or two mihours, a **semi**–remains in midai.
 
 Obviously, each standard mi represents a quarter of your productive day, which I call *midai*. Then, within each mi of Standard Mitime, mihours are equivalent to normal hours, and each hour is divided into quarters hours, if needed, so the effort to translate to and from mitime is minimal. 
 
