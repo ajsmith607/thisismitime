@@ -11,10 +11,10 @@ subhead: "the essential reference"
 
 Mitime is represented by the following format:  
 
-*M.H.N* 
+> *M.H.N* 
 
 Where:
-- *M* is the **mi** ({{% mi %}}), a magic number that represents the largest subdivisions of the day. Half of a mi is of course, a **semi**.
+- *M* is the **mi** ({{% mi %}}), a magic number that represents the largest subdivisions of the day. A half mi is, naturally, a **semi**.
 - *H* is the *mihour*. Like standard hours, mihours are 60 standard minutes in length, facilitating coordination with standard time. Mihours are subdivided and numbered relative to their containing mi.
 - *N* is the *miminute*. Miminutes are subdivided and numbered relative to their containing mihour. 
 
@@ -22,13 +22,13 @@ Because mitime counts down, all numbers are reversed chronologically.
 
 Standard time outside of mitime is unavailable time and is not tracked. This is represented as zero mitime, also known as mi 0 ("my zero"):
 
-*0.0.0*
+> 0.0.0
 
-Zero mitime represents daily recurring negative leap time within the structure of mitime.
+Mi 0 represents daily recurring negative leap time within the structure of mitime.
 
 *Mitimezones* describe the structure of mitime, and how mitime maps to standard time. Therefore, a completely explicit mitime reference will include its mitimezone in the following format starting with the basic mitime format already discussed above:
 
-*M.H.N {{% mi %}} MC.HC.NC.S* 
+> *M.H.N {{% mi %}} MC.HC.NC.S* 
 
 Where additionally:
 - *MC* is the mi count, or the number of mis in a day.
@@ -48,7 +48,6 @@ Because both mihours and standard hours are 60 standard minutes in length, trans
 
 All other Standard mi boundaries fall on either 6's or 10's in standard time:
 
-> 
 > 4sm = 6am
 > 
 > 3sm = 10am
@@ -59,11 +58,11 @@ All other Standard mi boundaries fall on either 6's or 10's in standard time:
 > 
 > 0sm = 10pm
 
-Notice too that in Standard Mitime, at 8am (4.2sm), an eighth of the day–half of the first mi, or two mihours, a semi–has passed in midai. Likewise at 8pm (1.2sm), an eighth of the day–half of the last mi, or two mihours, a semi–remains in midai.
+Notice too that in Standard Mitime, at 8am (4.2sm), an eighth of the day–half of the first mi, a semi, two mihours–has passed in midai. Likewise at 8pm (1.2sm), an eighth of the day–half of the last mi, a semi, two mihours–remains in midai.
 
-Instead of asking "what time is it?" one might instead ask "what is mitime?" At the midpoint of standard midai, one might respond with "2sm" which is short for 2.4.4sm in the same way that 2pm is short for 2:00pm. One might also give a more general answer, such as "I am in mi 2" ("mi 2" is pronounced "my two").  
+Instead of asking "what time is it?" one might instead ask "what is mitime?" At the midpoint of standard midai, one might respond with "2sm" which is short for 2.4.4sm in the same way that 2pm is short for 2:00pm. One might also give a more general answer, such as "I am in mi 2" ("my two").  
 
-A *mitimer* displays mitime in the form of a traditional analog timer that counts down mitime, with **midials** that run counter-clockwise. The mitimer is read starting from the largest areas to the smallest, starting from the outside, moving inward.
+A *mitimer* displays Standard Mitime in the form of a traditional analog timer that counts down mitime, with **midials** that run counter-clockwise. The mitimer is read starting from the largest areas to the smallest, starting from the outside, moving inward.
 
 {{< mitimer "1" "" "1" "" "12" "00" >}}
 

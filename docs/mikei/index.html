@@ -46,21 +46,27 @@ Saturday 25 Nov 2023
 <div class=content>
 <p><strong>Mitime</strong> (pronounced &ldquo;my time&rdquo;) is a <strong>mi</strong>nimal <strong>ti</strong>me <strong>me</strong>tastructure mapped over standard time that counts down available time in a day.</p>
 <p>Mitime is represented by the following format:</p>
+<blockquote>
 <p><em>M.H.N</em></p>
+</blockquote>
 <p>Where:</p>
 <ul>
 <li><em>M</em> is the <strong>mi</strong> (<span class=michar>ᚃ</span>
-), a magic number that represents the largest subdivisions of the day. Half of a mi is of course, a <strong>semi</strong>.</li>
+), a magic number that represents the largest subdivisions of the day. A half mi is, naturally, a <strong>semi</strong>.</li>
 <li><em>H</em> is the <em>mihour</em>. Like standard hours, mihours are 60 standard minutes in length, facilitating coordination with standard time. Mihours are subdivided and numbered relative to their containing mi.</li>
 <li><em>N</em> is the <em>miminute</em>. Miminutes are subdivided and numbered relative to their containing mihour.</li>
 </ul>
 <p>Because mitime counts down, all numbers are reversed chronologically.</p>
 <p>Standard time outside of mitime is unavailable time and is not tracked. This is represented as zero mitime, also known as mi 0 (&ldquo;my zero&rdquo;):</p>
-<p><em>0.0.0</em></p>
-<p>Zero mitime represents daily recurring negative leap time within the structure of mitime.</p>
+<blockquote>
+<p>0.0.0</p>
+</blockquote>
+<p>Mi 0 represents daily recurring negative leap time within the structure of mitime.</p>
 <p><em>Mitimezones</em> describe the structure of mitime, and how mitime maps to standard time. Therefore, a completely explicit mitime reference will include its mitimezone in the following format starting with the basic mitime format already discussed above:</p>
+<blockquote>
 <p><em>M.H.N <span class=michar>ᚃ</span>
 MC.HC.NC.S</em></p>
+</blockquote>
 <p>Where additionally:</p>
 <ul>
 <li><em>MC</em> is the mi count, or the number of mis in a day.</li>
@@ -83,18 +89,18 @@ MC.HC.NC.S</em></p>
 <p>1sm = 6pm</p>
 <p>0sm = 10pm</p>
 </blockquote>
-<p>Notice too that in Standard Mitime, at 8am (4.2sm), an eighth of the day–half of the first mi, or two mihours, a semi–has passed in midai. Likewise at 8pm (1.2sm), an eighth of the day–half of the last mi, or two mihours, a semi–remains in midai.</p>
-<p>Instead of asking &ldquo;what time is it?&rdquo; one might instead ask &ldquo;what is mitime?&rdquo; At the midpoint of standard midai, one might respond with &ldquo;2sm&rdquo; which is short for 2.4.4sm in the same way that 2pm is short for 2:00pm. One might also give a more general answer, such as &ldquo;I am in mi 2&rdquo; (&ldquo;mi 2&rdquo; is pronounced &ldquo;my two&rdquo;).</p>
-<p>A <em>mitimer</em> displays mitime in the form of a traditional analog timer that counts down mitime, with <strong>midials</strong> that run counter-clockwise. The mitimer is read starting from the largest areas to the smallest, starting from the outside, moving inward.</p>
-<figure id=miconsole-434ffc35e7-container class="image gallery-item" style="max-width:300px;margin:3em auto">
-<article id=miconsole-434ffc35e7 style=max-width:300px>
-</article><figcaption><span id=mitime-434ffc35e7-container>
-<span id=mitime-434ffc35e7></span>
+<p>Notice too that in Standard Mitime, at 8am (4.2sm), an eighth of the day–half of the first mi, a semi, two mihours–has passed in midai. Likewise at 8pm (1.2sm), an eighth of the day–half of the last mi, a semi, two mihours–remains in midai.</p>
+<p>Instead of asking &ldquo;what time is it?&rdquo; one might instead ask &ldquo;what is mitime?&rdquo; At the midpoint of standard midai, one might respond with &ldquo;2sm&rdquo; which is short for 2.4.4sm in the same way that 2pm is short for 2:00pm. One might also give a more general answer, such as &ldquo;I am in mi 2&rdquo; (&ldquo;my two&rdquo;).</p>
+<p>A <em>mitimer</em> displays Standard Mitime in the form of a traditional analog timer that counts down mitime, with <strong>midials</strong> that run counter-clockwise. The mitimer is read starting from the largest areas to the smallest, starting from the outside, moving inward.</p>
+<figure id=miconsole-14b4c7febb-container class="image gallery-item" style="max-width:300px;margin:3em auto">
+<article id=miconsole-14b4c7febb style=max-width:300px>
+</article><figcaption><span id=mitime-14b4c7febb-container>
+<span id=mitime-14b4c7febb></span>
 </span>
-<br><span id=sttime-434ffc35e7-container>
-<span id=sttime-434ffc35e7></span>
+<br><span id=sttime-14b4c7febb-container>
+<span id=sttime-14b4c7febb></span>
 </span>
-<br></figcaption></figure><script>mitimer('miconsole-434ffc35e7','midial-434ffc35e7','mitime-434ffc35e7','sttime-434ffc35e7',4,4,4,6,0,1,'mhn',12,0)</script>
+<br></figcaption></figure><script>mitimer('miconsole-14b4c7febb','midial-14b4c7febb','mitime-14b4c7febb','sttime-14b4c7febb',4,4,4,6,0,1,'mhn',12,0)</script>
 <p>While Standard Mitime will meet the needs of many, anyone can configure their mitimezone to their unique needs. Mitimezones allow for cross-compatible variations over time, so experimentation is less expensive.</p>
 <p>(Note too that because mistart can be any hour of the day, and the remaining structure is abstract, mitime can cross standard day boundaries.)</p>
 <p>Whereas standard time progresses into the future, mitime&rsquo;s structure only counts down available time in midai. Knowing the standard time is good for keeping appointments, but mitime is better at providing an intuitive sense of where one is relative to the total available time in a day, and how much time is left in midai, which provides a natural structure for determining if one is on schedule or falling behind.</p>
