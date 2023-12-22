@@ -39,8 +39,8 @@ the essential reference
 <article>
 <h1>mikei</h1>
 <div class=meta>Last Update:
-<time datetime="Monday 27 Nov 2023" class=text-muted>
-Monday 27 Nov 2023
+<time datetime="Thursday 21 Dec 2023" class=text-muted>
+Thursday 21 Dec 2023
 </time>
 </div>
 <div class=content>
@@ -76,7 +76,7 @@ MC.HC.NC.S</em></p>
 </ul>
 <p>The mitime range that begins at mistart and ends at mi 0 is called <em>midai</em> (pronounced &ldquo;my day&rdquo;). Notice that because mitime counts down, mitimezones mirror mitime at mistart, and the last unit of mitime before 0.0.0 is 1.1.1 for all mitimezones.</p>
 <p>The mitimezone <strong>4.4.4.6</strong> is the default reference mitimezone, called <em>Standard Mitime</em> and abbreviated <em>SM</em>. Standard Mitime is the most generalized structure and reflects a number of existing cultural expectations about the structure of time, such as 16 waking hours and the tendency to divide time by quarters, along with the concept of the &ldquo;business day.&rdquo;</p>
-<p>In Standard Mitime, midai mistarts at 6am (4sm) and is 16 standard hours (and mihours) long, subdivided by 4 mi. In other words, the total available time in the productive day, 16 hours (after 8 hours of sleep at night), is divided into quarters, each 4 hours long, and each of those quarters is divided into quarters that are each an hour long. If needed, one can further divide each hour into quarters called miminutes, that are each 15 standard minutes in length.</p>
+<p>In Standard Mitime, midai mistarts at 6am (4sm) and is 16 standard hours (and mihours) long, after subtracting 8 hours of sleep at night. This total available time is divided into quarters called mi that are each 4 standard hours duration. Each mi is divided into quarters called mihours that are each a standard hour duration. If needed, one can further divide each mihour into quarters called miminutes that are each 15 standard minutes duration.</p>
 <p>Because both mihours and standard hours are 60 standard minutes in length, translating between mitime and standard time quickly becomes intuitive. To start, realize that in Standard Mitime, the mid-point of midai reflects standard time:</p>
 <blockquote>
 <p>2sm = 2pm</p>
@@ -90,17 +90,17 @@ MC.HC.NC.S</em></p>
 <p>0sm = 10pm</p>
 </blockquote>
 <p>Notice too that in Standard Mitime, at 8am (4.2sm), an eighth of the day–half of the first mi, a semi, two mihours–has passed in midai. Likewise at 8pm (1.2sm), an eighth of the day–half of the last mi, a semi, two mihours–remains in midai.</p>
-<p>Instead of asking &ldquo;what time is it?&rdquo; one might instead ask &ldquo;what is mitime?&rdquo; At the midpoint of standard midai, one might respond with &ldquo;2sm&rdquo; which is short for 2.4.4sm in the same way that 2pm is short for 2:00pm. One might also give a more general answer, such as &ldquo;I am in mi 2&rdquo; (&ldquo;my two&rdquo;), which someone else might more traditionally call &ldquo;mid-day&rdquo;.</p>
+<p>Instead of asking &ldquo;what time is it?&rdquo; one might instead ask &ldquo;what is mitime?&rdquo; At the midpoint of standard midai, one might respond with &ldquo;2sm&rdquo; which is short for 2.4.4sm in the same way that 2pm is short for 2:00pm. One might also give a more general answer, such as &ldquo;I am in mi 2&rdquo; (&ldquo;my two&rdquo;), the same block of time someone else might call &ldquo;afternoon&rdquo;.</p>
 <p>A <em>mitimer</em> displays Standard Mitime in the form of a traditional analog timer that counts down mitime, with <strong>midials</strong> that run counter-clockwise. The mitimer is read starting from the largest areas to the smallest, starting from the outside, moving inward.</p>
-<figure id=miconsole-e50e1915ed-container class="image gallery-item" style="max-width:300px;margin:3em auto">
-<article id=miconsole-e50e1915ed style=max-width:300px>
-</article><figcaption><span id=mitime-e50e1915ed-container>
-<span id=mitime-e50e1915ed></span>
+<figure id=miconsole-db89ec05d2-container class="image gallery-item" style="max-width:300px;margin:3em auto">
+<article id=miconsole-db89ec05d2 style=max-width:300px>
+</article><figcaption><span id=mitime-db89ec05d2-container>
+<span id=mitime-db89ec05d2></span>
 </span>
-<br><span id=sttime-e50e1915ed-container>
-<span id=sttime-e50e1915ed></span>
+<br><span id=sttime-db89ec05d2-container>
+<span id=sttime-db89ec05d2></span>
 </span>
-<br></figcaption></figure><script>mitimer('miconsole-e50e1915ed','midial-e50e1915ed','mitime-e50e1915ed','sttime-e50e1915ed',4,4,4,6,0,1,'mhn',12,0)</script>
+<br></figcaption></figure><script>mitimer('miconsole-db89ec05d2','midial-db89ec05d2','mitime-db89ec05d2','sttime-db89ec05d2',4,4,4,6,0,1,'mhn',12,0)</script>
 <p>While Standard Mitime will meet the needs of many, anyone can configure their mitimezone to their unique needs. Mitimezones allow for cross-compatible variations over time, so experimentation is less expensive.</p>
 <p>(Note too that because mistart can be any hour of the day, and the remaining structure is abstract, mitime can cross standard day boundaries.)</p>
 <p>Whereas standard time progresses into the future, mitime&rsquo;s structure only counts down available time in midai. Knowing the standard time is good for keeping appointments, but mitime is better at providing an intuitive sense of where one is relative to the total available time in a day, and how much time is left in midai, which provides a natural structure for determining if one is on schedule or falling behind.</p>
@@ -140,7 +140,7 @@ MC.HC.NC.S</em></p>
 <article class=summary>
 <h3><a href=/mikei/>mikei</a></h3>
 <div class=meta>
-<time>Monday 27 Nov 2023</time>
+<time>Thursday 21 Dec 2023</time>
 </div>
 <div class=content>the essential reference<a href=/mikei/ class=more-link>read more</a>
 </div>
