@@ -60,13 +60,13 @@ All other Standard mi boundaries fall on either 6's or 10's in standard time:
 
 Notice too that in Standard Mitime, at 8am (4.2sm), an eighth of the day–half of the first mi, a semi, two mihours–has passed in midai. Likewise at 8pm (1.2sm), an eighth of the day–half of the last mi, a semi, two mihours–remains in midai.
 
-Instead of asking "what time is it?" one might instead ask "what is mitime?" At the midpoint of standard midai, one might respond with "2sm" which is short for 2.4.4sm in the same way that 2pm is short for 2:00pm. One might also give a more general answer, such as "I am in mi 2" ("my two"), the same block of time someone else might call "afternoon".  
-
 A *mitimer* displays Standard Mitime in the form of a traditional analog timer that counts down mitime, with **midials** that run counter-clockwise. The mitimer is read starting from the largest areas to the smallest, starting from the outside, moving inward.
 
 {{< mitimer "1" "" "1" "" "12" "00" >}}
 
-While Standard Mitime will meet the needs of many, anyone can configure their mitimezone to their unique needs. Mitimezones allow for cross-compatible variations over time, so experimentation is less expensive.
+Instead of asking "what time is it?" one might instead ask "what is mitime?" At the midpoint of standard midai, one might respond with "2sm" which is short for 2.4.4sm in the same way that 2pm is short for 2:00pm. One might also give a more general answer, such as "I am in mi 2" ("my two"), the same block of time that someone else might call "afternoon".  
+
+While Standard Mitime will meet the needs of many, anyone can configure their mitimezone to their unique needs. Mitimezones allow for cross-compatible variations, so experimentation is less expensive.
 
 (Note too that because mistart can be any hour of the day, and the remaining structure is abstract, mitime can cross standard day boundaries.)
 
