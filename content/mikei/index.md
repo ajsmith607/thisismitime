@@ -36,11 +36,11 @@ Where additionally:
 - *NC* is the miminute count, the number of miminutes in a mihour.
 - *S* is the *mistart*, the standard hour  when mitime begins. Mistart is based on a 24 hour clock, like hours in military time.  
 
-The mitime range that begins at mistart and ends at mi 0 is called *midai* (pronounced "my day"). Because mitime counts down, mitimezones mirror mitime at mistart, and the last unit of mitime before 0.0.0 is 1.1.1 for all mitimezones. 
+The mitime range that begins at mistart and ends at mi 0 is called *midai* (pronounced "my day"). Notice that because mitime counts down, mitimezones mirror mitime at mistart, and the last unit of mitime before 0.0.0 is 1.1.1 for all mitimezones. 
 
 The mitimezone **4.4.4.6** is the default reference mitimezone, called *Standard Mitime* and abbreviated *SM*. Standard Mitime is the most generalized structure and reflects a number of existing cultural expectations about the structure of time, such as 16 waking hours and the tendency to divide time by quarters, along with the concept of the "business day." 
 
-In Standard Mitime, midai mistarts at 6am (4sm) and is 16 standard hours (and mihours) long, divided by 4 mi. In other words, the total available time in the productive day, 16 hours, is divided into quarters, each 4 hours long, and each of those quarters is divided into quarters that are each an hour long. If needed, one can further divide each hour into quarters called miminutes, that are each 15 standard minutes in length. 
+In Standard Mitime, midai mistarts at 6am (4sm) and is 16 standard hours (and mihours) long, subdivided by 4 mi. In other words, the total available time in the productive day, 16 hours (after 8 hours of sleep at night), is divided into quarters, each 4 hours long, and each of those quarters is divided into quarters that are each an hour long. If needed, one can further divide each hour into quarters called miminutes, that are each 15 standard minutes in length. 
 
 Because both mihours and standard hours are 60 standard minutes in length, translating between mitime and standard time quickly becomes intuitive. To start, realize that in Standard Mitime, the mid-point of midai reflects standard time:
 
@@ -60,7 +60,7 @@ All other Standard mi boundaries fall on either 6's or 10's in standard time:
 
 Notice too that in Standard Mitime, at 8am (4.2sm), an eighth of the day–half of the first mi, a semi, two mihours–has passed in midai. Likewise at 8pm (1.2sm), an eighth of the day–half of the last mi, a semi, two mihours–remains in midai.
 
-Instead of asking "what time is it?" one might instead ask "what is mitime?" At the midpoint of standard midai, one might respond with "2sm" which is short for 2.4.4sm in the same way that 2pm is short for 2:00pm. One might also give a more general answer, such as "I am in mi 2" ("my two").  
+Instead of asking "what time is it?" one might instead ask "what is mitime?" At the midpoint of standard midai, one might respond with "2sm" which is short for 2.4.4sm in the same way that 2pm is short for 2:00pm. One might also give a more general answer, such as "I am in mi 2" ("my two"), which someone else might more traditionally call "mid-day".  
 
 A *mitimer* displays Standard Mitime in the form of a traditional analog timer that counts down mitime, with **midials** that run counter-clockwise. The mitimer is read starting from the largest areas to the smallest, starting from the outside, moving inward.
 
