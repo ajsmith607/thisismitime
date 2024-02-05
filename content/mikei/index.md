@@ -31,8 +31,8 @@ Mi 0 represents daily recurring negative leap time within the structure of mitim
 > *M.H.N {{% mi %}} MC.HC.NC.S* 
 
 Where additionally:
-- *MC* is the mi count, or the number of mis in a day.
-- *HC* is the mihour count, the number of mihours in a mi.
+- *MC* is the mi count, or the number of mis in a day. Each mi is structured identically based on mihour count.
+- *HC* is the mihour count, the number of mihours in a mi. Each mihour is structured identically based on miminute count.
 - *NC* is the miminute count, the number of miminutes in a mihour.
 - *S* is the *mistart*, the standard hour  when mitime begins. Mistart is based on a 24 hour clock, like hours in military time.  
 
