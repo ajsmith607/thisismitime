@@ -39,31 +39,33 @@ the motivation behind mitime
 <article>
 <h1>miwhi</h1>
 <div class=meta>Last Update:
-<time datetime="Sunday 05 Nov 2023" class=text-muted>
-Sunday 05 Nov 2023
+<time datetime="Sunday 04 Feb 2024" class=text-muted>
+Sunday 04 Feb 2024
 </time>
 </div>
 <div class=content>
-<p>When I began working full-time for myself, I suddenly had much more direct control over much more of my time. I now had both the opportunity—and the responsibility—to figure out how to organize my time for optimal productivity.</p>
+<p>In the Fall of 2021, I began planning to work full-time for myself, when I would suddenly have much more direct control over much more of my time. I now had both the opportunity—and the responsibility—to figure out how to organize my time for optimal productivity.</p>
 <p>Relying on my project management background, I began specifying my goals and their scope, breaking them into milestones and scheduling time for them.</p>
-<p>While this was all necessary, I still had not thought specifically about how to organize my day most effectively, and this was the essence of the challenge posed by having more control over my time. I was no longer as tightly tied to the structure of the normal business day, and with fewer constraints, (the most obvious being a commute), the natural question to ask was, at a meta level, how do I structure my available time most effectively?</p>
-<p>I quickly realized that our standard way of telling time does not directly support structuring that time well. Standard time is highly precise, generalized, uniform, making it widely applicable and therefore widely used. Standard time excels at measurement tasks such as keeping records (particularly financial), making itineraries, scheduling appointments, etc. But the high precision, uniformity, and generality of standard time does little to directly support conceptual structuring of time, which in turn makes it more difficult to use time effectively to complete tasks and achieve goals.</p>
+<p>While this was all necessary, I still had not thought specifically about how to organize my day most effectively, and this was the essence of the challenge posed by having more control over my time. I was no longer as tightly tied to the structure of the normal business day, and with fewer constraints, (the most obvious being a commute), the natural question to ask was, at a meta level, how do I organize my available time most effectively? Or put another way, what is the optimal structure of a normal day for me?</p>
+<p>I quickly realized that our standard way of &ldquo;telling time&rdquo; does not directly support structuring that time well. Standard time is highly precise, generalized, uniform, making it widely applicable and therefore widely used. Standard time excels at measurement tasks such as keeping records (particularly financial), making itineraries, scheduling appointments, etc. But the high precision, uniformity, and generality of standard time does little to directly support conceptual structuring of time, which in turn makes it more difficult to use time effectively to complete tasks and achieve goals.</p>
 <p>I further reasoned that I needed to deconstruct the existing conceptual structures overlaid on time that are fundamentally cultural in nature, such as a nine-to-five business day, three meals a day at specific times, etc., to allow patterns and best practices to emerge more clearly.</p>
 <p>I needed a way to structure time that was simple enough to quickly become intuitive to use, or otherwise, as a fundamental tool for determining actions, any inefficiencies due to lost time in translation would lead to significantly decreased productivity. This led to stressing compatibility with standard time–which we are already well trained to use, and which we must be able to continue using effectively either within or alongside our conceptual structures–by enforcing a rule that a fundamental unit of the structure must be 60 minutes in length.</p>
-<p>And I recognized early on that unlike standard time, which is often focused on the past, I was only concerned with available time, time directly under my control that was potentially productive time. All other time could (and therefore should) be ignored. This decision naturally led me to realize that what I was developing would be less like a clock, progressing forward in time, and more like a timer, counting down available time. The fundamental question I wanted to answer at any given time was not “what time is it?” but “how much time remains”.</p>
+<p>And I recognized early on that unlike standard time, which is often focused on the past, I was only concerned with available time, time directly under my control that was potentially productive time. All other time could (and therefore should) be ignored. This decision naturally led me to realize that what I was developing would be less like a clock, progressing forward in time, and more like a timer, counting down available time. The fundamental question I wanted to answer at any given time was not “what time is it?” but “how much time remains?”.</p>
 <p>But I still didn&rsquo;t know exactly what that time structure might look like, so I needed to develop a system for creating different time structures that I could then experiment with to learn the optimal solution, or perhaps more realistically, best practices in different circumstances. I needed a standard way of specifying different time structures so that as I progressed through them, I could easily make the transition, while also retaining a consistent basis for making an apples-to-apples comparison between these different structures.</p>
 <p>So, I created mitime as an abstract, minimal, time meta-structure that would give me a consistent way of exploring best practices for structuring time.</p>
 <p>The base unit of mitime is <strong>mi</strong> ( <span class=michar>ᚃ</span>
-), a magic number that only has meaning to the person using it, but which serves both as structure and variable in mitime. Mi facilitates a minimal structure that can be easily reconfigured and still be easily understandable. It chunks up the day into more natural units that are uniform and can thus be reorganized easily.</p>
+), a magic number that only has meaning to the person using it, but which serves both as structure and variable in mitime. Mi facilitates a minimal structure that can be easily reconfigured and still be easily understandable. It chunks up the day into more natural blocks that are uniform and can thus be reorganized easily.</p>
 <p>Choosing 4 as the initial standard mi was logical for many reasons. It is consistent with our cultural tendency to think of time in quarters, and allows us to naturally use quarters all the way down. Its consistency and uniformity made it the most logical starting point, so that became the standard.</p>
 <p>Some of the more immediate implications of mitime:</p>
 <ul>
-<li>Whereas standard time focuses more on specific points in time, <strong>mitime is less precise and focuses on uniform chunks of time remaining in a day.</strong></li>
-<li>Whereas standard time tells you what time of day it is, <strong>mitime tells you where you are in your day.</strong></li>
+<li>Whereas standard time focuses more on precise points in time, <strong>mitime is less precise and focuses on uniform chunks of time remaining in a day.</strong></li>
 <li>Whereas standard time is often focused on what has occurred in the past, <strong>mitime is only concerned with available time.</strong></li>
 <li>Because mitime is only concerned with available time, <strong>mitime counts down.</strong></li>
+<li>Whereas standard time tells you what time of the day it is, <strong>mitime tells you where you are in your day.</strong></li>
 <li>If you planned your day according to the mi structure, knowing the <strong>mitime also makes a more intuitive connection between where you are in your day and where you are in your schedule.</strong> Knowing the present mitime will immediately give you a sense of how well you are progressing against your goals that day.</li>
 </ul>
+<p>Mitime does not ultimately answer the fundamental question I was asking, but it is a tool I rely on in my continued search.</p>
+<p>thisismitime.com initially launched on 29 Jan 2022.</p>
 </div>
 </article>
 </main>
@@ -74,11 +76,11 @@ Sunday 05 Nov 2023
 </div>
 <div>
 <ul>
+<li><a href=/miwai/equal-time/>the mental shift of mitime</a></li>
 <li><a href=/miwai/adapting-mitime/>adapting to mitime</a></li>
 <li><a href=/miwai/mitime-design/>the design of mitime</a></li>
 <li><a href=/miwai/initial-reflections/>Planning Midai</a></li>
 <li><a href=/miwai/staggered-task-pattern/>Time Pattern: Task Dovetailing</a></li>
-<li><a href=/miwai/time-is-a-diminishing-resource/>time is an ever-diminishing resource</a></li>
 </ul>
 </div>
 </div>
@@ -90,7 +92,7 @@ Sunday 05 Nov 2023
 <article class=summary>
 <h3><a href=/miwhi/>miwhi</a></h3>
 <div class=meta>
-<time>Sunday 05 Nov 2023</time>
+<time>Sunday 04 Feb 2024</time>
 </div>
 <div class=content>the motivation behind mitime<a href=/miwhi/ class=more-link>read more</a>
 </div>
@@ -98,7 +100,7 @@ Sunday 05 Nov 2023
 <article class=summary>
 <h3><a href=/mikei/>mikei</a></h3>
 <div class=meta>
-<time>Friday 22 Dec 2023</time>
+<time>Sunday 04 Feb 2024</time>
 </div>
 <div class=content>the essential reference<a href=/mikei/ class=more-link>read more</a>
 </div>
@@ -120,7 +122,7 @@ Sunday 05 Nov 2023
 </div>
 </article>
 <div class=small>
-<p>&copy; 2023 <a href=https://thisismitime.com/>this is mitime</a></p>
+<p>&copy; 2024 <a href=https://thisismitime.com/>this is mitime</a></p>
 </div>
 </div>
 </footer>
