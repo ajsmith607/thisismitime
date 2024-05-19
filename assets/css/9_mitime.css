@@ -71,13 +71,17 @@ main .subhead {
 
 h1, h2, h3, article.summary .content { text-transform: lowercase; }
 
+svg { display: block; }
 div.curve {
     width: 100%;
     margin: 0;
     padding: 0;
     fill: var(--background-color);
 }
-svg { display: block; }
+div.curve svg { 
+  margin-bottom: -6px; 
+  z-index: -1;
+  } /* adjusting to get rid of gap */  
 
 .michar { font-weight: bold; vertical-align: 2px; padding-left: 5px; }
 
