@@ -3,11 +3,12 @@
         <p class="subhead headtext">minimal time metastructure</p>
         <a href="{{ with .Site.BaseURL }} {{ . }} {{ end }}">
             <figure id="logo">
-                {{ .Scratch.Set "svgpath" "img/mitime-logo-opt.svg" }}
-                {{ partial "inline-svg.html" . }}
+            <!--
+            {{ .Scratch.Set "svgpath" "img/mitime-logo-opt.svg" }}
+            {{ partial "inline-svg.html" . }}
+            -->
             </figure>
         </a>
-
         <p class="midigital headtext"> 
             mitime is <span id="mitime"></span>
         </p>
@@ -22,4 +23,5 @@
         {{- readFile "assets/img/more.svg" | safeHTML -}}
     </div> 
 </header>
+<script>mitimelogo("#logo");</script>
 

@@ -189,8 +189,11 @@
     </div>
     <div class="grid-container">
         <figure id="logo" class="grid-item">
+            <!--
             {{ .Scratch.Set "svgpath" "img/mitime-logo-opt.svg" }}
             {{ partial "inline-svg.html" . }}
+            -->
+            <script>mitimelogo("#logo");</script>
         </figure>
         <div id="digitalclock" class="grid-item">
             mitime is <span id="mitime"></span>

@@ -46,7 +46,7 @@ Because both mihours and standard hours are 60 standard minutes in length, trans
 
 > 2sm = 2pm
 
-All other Standard mi boundaries fall on either 6's or 10's in standard time:
+All other Standard Mi boundaries fall on either 6's or 10's in standard time:
 
 > 4sm = 6am
 > 

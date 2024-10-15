@@ -16,7 +16,7 @@ light gray: #f3f4f5
     --add-color: #ff6a1f;
     --border-color: #ffad2b;
     --down-color: black;
-    --align-wmi: 8.25rem;
+    --align-wmi: 9rem;
 }
 
 html{ background-color: var(--color); }
@@ -48,6 +48,7 @@ header p, header figure, header svg {
     width: auto;
     max-height: 120px; 
     fill: var(--background-color);
+    stroke-width: 0;
 }
 #logo svg #crosst { fill: var(--add-color); }
 p.headtext, main .subhead {
