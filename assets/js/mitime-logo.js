@@ -1,28 +1,30 @@
 
-// four glyphs composed of four strokes each
+// four glyphs, each composed of four strokes, all variations of mi symbol
+
 function mitimelogo(containername) {
 
     const svgns = "http://www.w3.org/2000/svg";
-    const svgwidth = 600;
+    // const svgwidth = 600;
     let canvaspadding = 0;
 
     const basenumber = 16; 
     const phi = (1 + Math.sqrt(5)) / 2;
 
     let stemheight = basenumber / phi;
-    let stemwidth = stemheight - (basenumber - stemheight);
+    let stemwidth = (basenumber - stemheight) / phi; 
     let barheight = stemwidth / phi;
 
-    let interspace = (stemheight - (barheight * 3))/2;
+    let interspace = (stemheight - (barheight * 3)) / 2;
     let connectspace = interspace / 2; 
-    let letterspace = interspace + (interspace /2);
+    let letterspace = interspace + (interspace / 2);
 
     let iheight = stemheight - barheight - interspace;
     let nbarwidth = (basenumber - stemheight);
     let mbarwidth = (stemwidth * 2) + connectspace;
-    let crossbarwidth = (stemwidth * 3) + (letterspace *2);
+    let crossbarwidth = (stemwidth * 3) + (letterspace * 2);
 
-    let [rx, ry] = [interspace / phi, interspace / phi];
+    let r = interspace / phi
+    let [rx, ry] = [r, r];
     let [x,y] = [0,0];
 
     function rect(height=stemheight, width=stemwidth) {
@@ -51,8 +53,8 @@ function mitimelogo(containername) {
 
         let mg = document.createElementNS(svgns, "g");
         mg.appendChild(mstem1);
-        mg.appendChild(mstem2);
         mg.appendChild(mbar);
+        mg.appendChild(mstem2);
         mg.appendChild(mstem3);
 
         return mg;
