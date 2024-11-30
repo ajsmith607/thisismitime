@@ -15,7 +15,7 @@ Mitime is represented by the following format:
 
 Where:
 - *M* is the **mi** ({{% mi %}}), a magic number that represents the largest subdivisions of the day. A half mi is, naturally, a **semi**.
-- *H* is the *mihour*. Like standard hours, mihours are 60 standard minutes in length, facilitating coordination with standard time. Mihours are subdivided and numbered relative to their containing mi.
+- *H* is the *mihour*. Like standard hours, mihours are 60 standard minutes long, facilitating coordination with standard time. Mihours are subdivided and numbered relative to their containing mi.
 - *N* is the *miminute*. Miminutes are subdivided and numbered relative to their containing mihour. 
 
 Because mitime counts down, all numbers are reversed chronologically.
@@ -26,7 +26,7 @@ Standard time outside of mitime is unavailable time and is not tracked. This is 
 
 Mi 0 represents daily recurring negative leap time within the structure of mitime.
 
-*Mitimezones* describe the structure of mitime, and how mitime maps to standard time. Therefore, a completely explicit mitime reference will include its mitimezone in the following format starting with the basic mitime format already discussed above:
+*Mitimezones* describe the structure of mitime, and how mitime maps to standard time, thus providing a system for creating different time metastructures. Therefore, a completely explicit mitime reference will include its mitimezone in the following format starting with the basic mitime format already discussed above:
 
 > *M.H.N {{% mi %}} MC.HC.NC.S* 
 
@@ -38,11 +38,11 @@ Where additionally:
 
 The mitime range that begins at mistart and ends at mi 0 is called *midai* (pronounced "my day"). Notice that because mitime counts down, mitimezones mirror mitime at mistart, and the last unit of mitime before 0.0.0 is 1.1.1 for all mitimezones. 
 
-The mitimezone **4.4.4.6** is the default reference mitimezone, called *Standard Mitime* and abbreviated *SM*. Standard Mitime is the most generalized structure and reflects a number of existing cultural expectations about the structure of time, such as 16 waking hours and the tendency to divide time by quarters, along with the concept of the "business day." 
+The mitimezone **4.4.4.6** is the default reference mitimezone, called *Standard Mitime* and abbreviated *SM*. Standard Mitime is the most generalized structure and it is highly compatible with a number of existing cultural expectations about the structure of time, such as 16 waking hours and the tendency to divide time by quarters, along with the concept of the "business day." 
 
-In Standard Mitime, midai mistarts at 6am (4sm) and is 16 standard hours (and mihours) long, after subtracting 8 hours of sleep at night. This total available time is divided into quarters called mi that are each 4 standard hours duration. Each mi is divided into quarters called mihours that are each a standard hour duration. If needed, one can further divide each mihour into quarters called miminutes that are each 15 standard minutes duration. 
+In Standard Mitime, midai mistarts at 6am (4sm) and is 16 standard hours (and mihours) long, after subtracting 8 hours of sleep at night. This total available time is divided into quarters called mi that are each 4 standard hours long. Each mi is divided into quarters called mihours that are each a standard hour long. If needed, one can further divide each mihour into quarters called miminutes that are each 15 standard minutes long. 
 
-Because both mihours and standard hours are 60 standard minutes in length, translating between mitime and standard time quickly becomes intuitive. To start, realize that in Standard Mitime, the mid-point of midai reflects standard time:
+Because both mihours and standard hours are 60 standard minutes long, translating between mitime and standard time quickly becomes intuitive. To start, realize that in Standard Mitime, the mid-point of midai reflects standard time:
 
 > 2sm = 2pm
 
