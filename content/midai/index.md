@@ -7,7 +7,7 @@ weight: 3
 mainid: "miplanner"
 ---
 
-The uniform subdivisions of mitime lend themselves to structured planning tools, such as this simple Standard Mitime daily planner (which can obviously be easily adjusted for different mitimezones): 
+The uniform subdivisions of mitime lend themselves to structured planning tools, such as this simple Standard Mitime midaily planner (which can obviously be easily adjusted for different mitimezones): 
 
 {{< miplanner >}}
 
