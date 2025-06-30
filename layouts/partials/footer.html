@@ -6,7 +6,8 @@
         {{ .Scratch.Set "parent" .Site.Home }}
         {{ partial "list-children.html" . }}
         <div class="small">
-            <p>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></p>
+            <p class="copyright">&copy; <span id="cwyear"></span> <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></p>
+            <script> document.getElementById("cwyear").innerHTML = (new Date().getFullYear());</script> 
         </div>
     </div> 
 </footer>
