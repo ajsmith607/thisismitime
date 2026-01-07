@@ -5,6 +5,7 @@ publishDir = "docs"
 enableGitInfo = true
 footnoteReturnLinkContents = "↩"
 lastmod = [":fileModTime", ":default"] # auto populates lastmod date
+pagination.pagerSize = 20
 
 [params]
   _merge = "deep"

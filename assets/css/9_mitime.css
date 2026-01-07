@@ -99,21 +99,18 @@ main figcaption { text-align: center; }
 
 blockquote { color: var(--border-color); }
 
-table.miplanner { border: 2px solid var(--border-color); }
-table.miplanner .mi {
-    width: 25%;
-    vertical-align: top;
-}
-table.miplanner td, table.miplanner th {
+figure.table table.miplanner { table-layout: fixed; width: 100%; border: 2px solid var(--border-color); }
+figure.table table.miplanner .mi { width: 25%; vertical-align: top; }
+figure.table table.miplanner .mh { width: 75%; vertical-align: top; }
+figure.table table.miplanner td, table.miplanner th {
     font-size: 1rem;
     background-color: var(--background-color);
     padding-left: var(--line-height);
 }
-table.miplanner td { 
+figure.table table.miplanner td { 
     padding-left: var(--line-height);
     border-bottom: 1px dashed var(--border-color); 
 }
-
 
 footer { margin-top: calc( var(--line-height) * 3 ); color: var(--background-color); }
 footer .curve svg { transform: scaleY(-1); }
@@ -135,7 +132,6 @@ footer .small, footer .small a {
     text-decoration: none;  
 }
 footer article h2 { padding-top: 0; }
-
 
 /* this accounts for 16% offset above */
 @media only screen and (max-width: 1000px) {
