@@ -136,10 +136,13 @@ footer article h2 { padding-top: 0; }
 /* this accounts for 16% offset above */
 @media only screen and (max-width: 1000px) {
     header, header .inner, main, aside, footer, footer .inner { margin-left: auto; }
+    main { padding-left: calc(var(--line-height) / 2); padding-right: calc(var(--line-height) / 2); }
 }
 
 @media only screen and (max-width: 800px) {
     html,body { font-size: var(--mobile-font-size); }
-    p.headtext, main .subhead { margin-right: 0; text-align: left; } 
+    p.headtext, main .subhead { margin-right: 0; text-align: left; }
     header .inner { padding-top: var(--line-height); }
+    main { width: 100%; max-width: 100%; padding-left: calc(var(--line-height) / 2); padding-right: calc(var(--line-height) / 2); }
+    nav#menumain, nav.tags { min-width: 0; }
 }
