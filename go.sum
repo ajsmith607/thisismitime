@@ -4,3 +4,5 @@ github.com/ajsmith607/mitimer v0.0.0-20260107022721-e66d39719b4d h1:nZ7Il8xhGMYM
 github.com/ajsmith607/mitimer v0.0.0-20260107022721-e66d39719b4d/go.mod h1:w3so7BsPTHwe7uKcAoFVZX1XsGhjeZh944sO+8lJSsI=
 github.com/ajsmith607/undergo v0.0.0-20260106232459-17d85d10bd77 h1:+PRyNx9DG8BSjTmtTQP2OjegDlMwPEewVXv7D6fhQ1E=
 github.com/ajsmith607/undergo v0.0.0-20260106232459-17d85d10bd77/go.mod h1:Xy/MiAk/3b8qI4uuAvsLlr/1SLoT0TD8k13mZ47gy4c=
+github.com/ajsmith607/undergo v0.0.0-20260518235038-5b27bbc9d143 h1:Y/emC3B27XXP5IGHD93O5seXpnGoVjbaib7eEwJbrII=
+github.com/ajsmith607/undergo v0.0.0-20260518235038-5b27bbc9d143/go.mod h1:Xy/MiAk/3b8qI4uuAvsLlr/1SLoT0TD8k13mZ47gy4c=
