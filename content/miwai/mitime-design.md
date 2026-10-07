@@ -5,7 +5,7 @@ subhead: "finer points about mitime"
 date: 2022-07-18
 ---
 
-Standard Mitime is based on a very simple and abstract recursive algorithm, division by quarters all the way down to the exit case: non-productive time. By its nature, mitime expresses the golden ratio throughout its application to standard time.
+Standard Mitime is based on a very simple and abstract recursive algorithm, division by quarters all the way down to the exit case: non-productive time.
 
 Instead of focussing on highly precise reference-able points in time, mitime focusses on broader chunks of time simply organized that can more naturally represent meaningful human effort. To maximize utility, efficiency, and to still be maximally compatible with standard time measurements, a minimal approach with a lower degree of precision was the logical approach. Removing unnecessary precision simplifies mitime for more efficient understanding and application. 
 
